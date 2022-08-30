@@ -15,7 +15,8 @@ $color-torch-red:                   #ff1553;
 
 
 $color-black:                       #070707;
-
+$color-grey:                        #828282;
+$color-white-smoke:                 #f6f6f6;
 
 // Gradient
 
@@ -43,7 +44,9 @@ $trans-default:                     0.3s $tf-default;
 // если требуется изинг отличный от $tf-default, то переменную называем не цифрой
 $trans-modal:                       0.6s cubic-bezier(0.55, 0, 0.1, 1);
 
+$trans-400:                         0.6s $tf-default;/////
 $trans-600:                         0.6s $tf-default;
+$trans-800:                         0.8s $tf-default;//////
 
 // Viewports
 // ---------------------------------

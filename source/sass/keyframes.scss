@@ -1,3 +1,64 @@
+@keyframes open-menu-top {
+  0% {
+    transform: translate(-50%, calc(-50% - 4px));
+  }
+
+  49%,
+  51% {
+    transform: translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+}
+
+@keyframes open-menu-bottom {
+  0% {
+    transform: translate(-50%, calc(-50% + 5px));
+  }
+
+  49%,
+  51% {
+    transform: translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+
+@keyframes close-menu-top {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: none;
+  }
+
+  49%,
+  51% {
+    transform: translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, calc(-50% - 4px));
+  }
+}
+
+@keyframes close-menu-bottom {
+  0% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  49%,
+  51% {
+    transform: translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, calc(-50% + 4px));
+  }
+}
+
 // используйте для скрытия нежелательных анимаций-скачков при поворотах экрана
 @keyframes disableBreakpointAnimation {
   0% {

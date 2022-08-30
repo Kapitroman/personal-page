@@ -1,10 +1,20 @@
 .header {
-  padding: 28px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  background-color: $color-neon-blue;
+  width: 100%;
+  //border-bottom: 1px solid $color-grey;////
 
-  .container {
-    display: flex;
-  }
+  background-color: $color-default-white;
+}
+
+.header.is-opened {
+  //border: none;
+
+  bottom: 0;
+  overflow-y: auto;
+
 
 }
+

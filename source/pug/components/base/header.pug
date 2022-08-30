@@ -1,36 +1,40 @@
-mixin header(headerMods, currentUrl)
+mixin header(headerMods)
   -
     const headerLinks = [
       {
-        href: "index.html",
+        href: "#intro",
         text: "Главная"
       },
       {
-        href: "#",
-        text: "Страница 2"
+        href: "#about",
+        text: "Обо мне"
       },
       {
-        href: "#",
-        text: "Страница 3"
+        href: "#skills",
+        text: "Навыки"
+      },
+      {
+        href: "#portfolio",
+        text: "Портфолио"
+      },
+      {
+        href: "#contacts",
+        text: "Контакты"
       },
     ]
 
   header.header(class=headerMods)
     .container
-      if(currentUrl === "index.html")
-        //- lighthouse снимает 10 баллов SEO за <a> без href
-        span.header__logo Логотип
-      else
-        a.header__logo(href="index.html", aria-label="Переход на главную") Логотип
-      nav.main-nav
-        button.main-nav__toggle.btn-reset(type="button", aria-label="Переключатель отображения меню", aria-pressed="false")
-          +icon("icon-burger", 20, 20)
-        .main-nav__wrapper
-          ul.main-nav__list
-            each link in headerLinks
-              - const activeState = currentUrl === link.href
-              li.main-nav__item
-                if(activeState)
-                  span.main-nav__link.is-active=link.text
-                else
-                  a.main-nav__link(href=link.href)=link.text
+      nav.navigation-changer
+        .navigation-changer__wrapper-toggle
+          h1.titles Роман Капитонов
+          button.navigation-changer__toggle(type="button", aria-label="Переключатель отображения меню", aria-pressed="false")
+            span.navigation-changer__burger-line.navigation-changer__burger-line--top
+            span.navigation-changer__burger-line.navigation-changer__burger-line--center
+            span.navigation-changer__burger-line.navigation-changer__burger-line--bottom
+
+
+        ul.navigation-changer__list
+          each link in headerLinks
+            li.navigation-changer__item
+              a.navigation-changer__link(href=link.href, data-navigation-link) #{link.text}
