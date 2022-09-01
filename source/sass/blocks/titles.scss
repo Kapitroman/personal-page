@@ -15,8 +15,6 @@ h1.titles {
   font-size: 47px;
   line-height: 59px;
 
-  background-color: burlywood;
-
   @include vp-767 {
     margin-right: 40px;
 
