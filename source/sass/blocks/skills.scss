@@ -1,3 +1,61 @@
 .skills {
-  height: 600px;
+  text-align: center;
+
+  &__text {
+    margin: 0;
+    margin-bottom: 44px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style: none;
+
+    width: calc(100% + 57px);
+    margin: 0;
+    margin-top: -60px;
+    margin-left: -29px;
+    margin-right: -29px;
+    padding: 0;
+  }
+
+  &__item {
+    min-width: 143px;
+    margin-top: 60px;
+    margin-left: 29px;
+    margin-right: 28px;
+    //margin-left: 57px;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__star {
+    color: $color-whisper;
+  }
+
+  &__star--active {
+    color: $color-black;
+  }
+
+  /*
+  &__item:not(:last-child) {
+    margin-right: 57px;
+
+    background-color: aquamarine;
+  }
+  */
 }

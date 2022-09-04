@@ -800,33 +800,6 @@ button,
   overflow-y: auto;
 }
 
-.main-nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  margin-right: 20px;
-  margin-left: 60px;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav__item {
-  margin-right: 20px;
-}
-
-.main-nav__link {
-  color: #ffffff;
-}
-
-.main-nav__link.is-active {
-  opacity: 0.6;
-}
-
-.main-nav__toggle {
-  display: none;
-}
-
 .footer {
   height: 400px;
 }
@@ -1434,6 +1407,10 @@ h1.titles {
   line-height: 59px;
 }
 
+h2.titles {
+  margin-bottom: 25px;
+}
+
 .navigation-changer {
   border-bottom: 1px solid #828282;
 }
@@ -1566,7 +1543,7 @@ h1.titles {
 }
 
 .section-navigation {
-  padding: 100px 0;
+  padding: 110px 0 90px 0;
 }
 
 .section-navigation:nth-of-type(2n) {
@@ -1574,7 +1551,40 @@ h1.titles {
 }
 
 .intro {
-  height: 700px;
+  text-align: center;
+}
+
+.intro h1 {
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.intro p span {
+  display: block;
+}
+
+.intro__image {
+  position: relative;
+}
+
+.intro__image::before {
+  content: "";
+  display: table;
+  padding-bottom: 43.43%;
+}
+
+.intro img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .about {
@@ -1582,7 +1592,65 @@ h1.titles {
 }
 
 .skills {
-  height: 600px;
+  text-align: center;
+  /*
+  &__item:not(:last-child) {
+    margin-right: 57px;
+
+    background-color: aquamarine;
+  }
+  */
+}
+
+.skills__text {
+  margin: 0;
+  margin-bottom: 44px;
+}
+
+.skills__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  width: calc(100% + 57px);
+  margin: 0;
+  margin-top: -60px;
+  margin-left: -29px;
+  margin-right: -29px;
+  padding: 0;
+}
+
+.skills__item {
+  min-width: 143px;
+  margin-top: 60px;
+  margin-left: 29px;
+  margin-right: 28px;
+}
+
+.skills__icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.skills__name {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.skills__star {
+  color: #e5e5e5;
+}
+
+.skills__star--active {
+  color: #070707;
 }
 
 .portfolio {
@@ -1752,6 +1820,10 @@ h1.titles {
   .is-closed .navigation-changer__burger-line--bottom {
     -webkit-animation: close-menu-bottom 0.6s ease;
     animation: close-menu-bottom 0.6s ease;
+  }
+
+  .intro h1 {
+    display: none;
   }
 }
 

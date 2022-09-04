@@ -1,4 +1,44 @@
 .intro {
   //padding: 120px 0 110px 0;
-  height: 700px;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 15px;
+
+    @include vp-767 {
+      display: none;
+    }
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  p span {
+    display: block;
+  }
+
+  &__image {
+    position: relative;
+
+    &::before {
+      content: "";
+      display: table;
+
+      //padding-bottom: 50.69%;
+      padding-bottom: 43.43%;
+    }
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
 }

@@ -4,9 +4,8 @@ mixin intro()
     //- все блоки содержат в себе container без доп класса tutorial__wrapper
     .container
       h1.titles Роман Капитонов
-      p UX | UI designer <span>24 years old, Minsk</span>
-      p(style="margin-top: 40px;") Текст&nbsp;с&nbsp;мнемониками
+      p Верстальщик | Веб-разработчик <span>48 лет, Москва</span>
 
-      p(style="margin-top: 40px;") Пример использования +img()
-      p(style="margin-bottom: 40px;")
-        +img("content", "placeholder", "png", 120, 120, "Пример")
+      .intro__image
+        //-+picture("content", "iam-11", "jpg", 945, 479, "Роман Капитонов")
+        +picture("content", "iam-21", "jpg", 945, 215, "Роман Капитонов")
