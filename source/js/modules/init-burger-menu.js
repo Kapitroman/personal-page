@@ -1,4 +1,4 @@
-const header = document.querySelector('.header')
+const header = document.querySelector('.header');
 const breakpoint = window.matchMedia('(min-width:768px)');
 
 const initBurgerMenu = () => {
@@ -22,7 +22,7 @@ const initBurgerMenu = () => {
     if (evt.target.closest('a')) {
       closeMenu();
     }
-  }
+  };
 
   const openMenu = () => {
     navigationButton.ariaPressed = 'true';
