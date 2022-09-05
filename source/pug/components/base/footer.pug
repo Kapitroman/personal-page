@@ -2,3 +2,19 @@ mixin footer(footerMods)
   footer.footer(class=footerMods).section-navigation#contacts
     .container
       h2.titles Контакты
+      p.footer__text Вы можете написать e-mail:
+      a(href="mailto:kapitroman@yandex.ru").footer__email Send E-mail
+      p.footer__text или связаться по другим каналам:
+      ul.footer__links
+        li.footer__link
+          span.visually-hidden github
+          a(href="https://github.com/Kapitroman")
+            +icon("icon-github", 40, 40)
+        li.footer__link
+          span.visually-hidden telegram
+          a(href="https://t.me/kapitroman")
+            +icon("icon-telegram", 40, 40)
+        li.footer__link
+          span.visually-hidden skype
+          a(href="skype:kapiroman")
+            +icon("icon-skype", 40, 40)

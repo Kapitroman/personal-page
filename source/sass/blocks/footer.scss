@@ -1,3 +1,42 @@
 .footer {
-  height: 400px;
+  &__text {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  &__email {
+    display: inline-block;
+
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 12px 28px;
+    border-radius: 25px;
+
+    background-color: $color-black;
+
+    color: $color-default-white;
+    font-weight: 700;
+  }
+
+  &__links {
+    display: inline-flex;
+
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__link {
+    display: block;
+
+    svg {
+      color: $color-default-white;
+    }
+  }
+
+  &__link:not(:last-child) {
+    margin-right: 60px;
+  }
 }

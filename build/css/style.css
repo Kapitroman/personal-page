@@ -801,8 +801,42 @@ button,
   overflow-y: auto;
 }
 
-.footer {
-  height: 400px;
+.footer__text {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.footer__email {
+  display: inline-block;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding: 12px 28px;
+  border-radius: 25px;
+  background-color: #070707;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer__links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__link {
+  display: block;
+}
+
+.footer__link svg {
+  color: #ffffff;
+}
+
+.footer__link:not(:last-child) {
+  margin-right: 60px;
 }
 
 .modal {
