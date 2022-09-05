@@ -2,4 +2,9 @@ mixin portfolio()
   section.portfolio.section-navigation#portfolio
     .container
       h2.titles Портфолио
+      .portfolio__item
+        .portfolio__image
+          +picture("content", "notab", "jpg", 945, 700, "лендинг приложения notab")
+        a.portfolio__link(href="#") Тестовое задание для компании PURRWEB
+        p.portfolio__description Лендинг. Адаптивная верстка
 

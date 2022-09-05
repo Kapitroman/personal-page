@@ -2,19 +2,15 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 3;
 
   width: 100%;
-  //border-bottom: 1px solid $color-grey;////
 
   background-color: $color-default-white;
 }
 
 .header.is-opened {
-  //border: none;
-
   bottom: 0;
   overflow-y: auto;
-
-
 }
 
