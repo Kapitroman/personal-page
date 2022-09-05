@@ -1,6 +1,4 @@
 .skills {
-  text-align: center;
-
   &__text {
     margin: 0;
     margin-bottom: 44px;
@@ -26,7 +24,6 @@
     margin-top: 60px;
     margin-left: 29px;
     margin-right: 28px;
-    //margin-left: 57px;
   }
 
   &__icon {
@@ -53,12 +50,4 @@
   &__star--active {
     color: $color-black;
   }
-
-  /*
-  &__item:not(:last-child) {
-    margin-right: 57px;
-
-    background-color: aquamarine;
-  }
-  */
 }

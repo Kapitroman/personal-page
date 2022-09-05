@@ -1,0 +1,13 @@
+.section-navigation {
+  padding: 110px 0 90px 0;
+
+  text-align: center;
+
+  &:nth-of-type(2n) {
+    background-color: $color-white-smoke;
+  }
+
+  @include vp-374 {
+    padding: 148px 0 60px 0;
+  }
+}

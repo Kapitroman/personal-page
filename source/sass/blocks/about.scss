@@ -1,3 +1,44 @@
 .about {
-  height: 600px;
+  &__wrap-text {
+    max-width: 668px;
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: left;
+
+    @include vp-767 {
+      max-width: 580px;
+    }
+  }
+
+  &__text-section + .about__text-section {
+    margin-top: 30px;
+  }
+
+  &__text,
+  &__list {
+    margin: 0;
+  }
+
+  &__text + a,
+  &__list + a,
+  &__text + .about__list {
+    margin-top: 15px;
+  }
+
+  &__link {
+    display: block;
+
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 14px;
+    line-height: 18px;
+
+    @media (hover: hover), screen and (min-width: 0\0) {
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
 }

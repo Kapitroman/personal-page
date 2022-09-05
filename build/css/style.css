@@ -1482,7 +1482,7 @@ h2.titles {
 }
 
 .navigation-changer__link.is-inactive {
-  color: #000000;
+  color: #070707;
   pointer-events: none;
 }
 
@@ -1545,14 +1545,11 @@ h2.titles {
 
 .section-navigation {
   padding: 110px 0 90px 0;
+  text-align: center;
 }
 
 .section-navigation:nth-of-type(2n) {
   background-color: #f6f6f6;
-}
-
-.intro {
-  text-align: center;
 }
 
 .intro h1 {
@@ -1588,19 +1585,34 @@ h2.titles {
   object-fit: cover;
 }
 
-.about {
-  height: 600px;
+.about__wrap-text {
+  max-width: 668px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.skills {
-  text-align: center;
-  /*
-  &__item:not(:last-child) {
-    margin-right: 57px;
+.about__text-section + .about__text-section {
+  margin-top: 30px;
+}
 
-    background-color: aquamarine;
-  }
-  */
+.about__text,
+.about__list {
+  margin: 0;
+}
+
+.about__text + a,
+.about__list + a,
+.about__text + .about__list {
+  margin-top: 15px;
+}
+
+.about__link {
+  display: block;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .skills__text {
@@ -1654,10 +1666,6 @@ h2.titles {
 
 .skills__star--active {
   color: #070707;
-}
-
-.portfolio {
-  text-align: center;
 }
 
 .portfolio__item + .portfolio__item {
@@ -1726,6 +1734,16 @@ h2.titles {
 
   .navigation-changer__toggle:hover,
   .navigation-changer__toggle:focus {
+    opacity: 0.8;
+  }
+
+  .about__link:hover,
+  .about__link:focus {
+    opacity: 0.8;
+  }
+
+  .portfolio__link:hover,
+  .portfolio__link:focus {
     opacity: 0.8;
   }
 }
@@ -1863,6 +1881,10 @@ h2.titles {
 
   .intro h1 {
     display: none;
+  }
+
+  .about__wrap-text {
+    max-width: 580px;
   }
 }
 
