@@ -4,6 +4,11 @@ mixin portfolio()
       h2.titles Портфолио
       .portfolio__item
         .portfolio__image
+          +picture("content", "severianochka", "jpg", 945, 700, "скриншот приложения severianochka")
+        a.portfolio__link(href="https://kapitroman.github.io/severianochka/") Тестовой проект "Северяночка"
+        p.portfolio__description Страницы интернет-магазина. Адаптивная верстка.
+      .portfolio__item
+        .portfolio__image
           +picture("content", "notab", "jpg", 945, 700, "скриншот приложения notab")
         a.portfolio__link(href="https://kapitroman.github.io/notab/") Тестовое задание для компании PURRWEB.
         p.portfolio__description Лендинг. Адаптивная верстка
@@ -11,14 +16,4 @@ mixin portfolio()
         .portfolio__image
           +picture("content", "jewellery", "jpg", 945, 700, "скриншот сайта jewelly")
         a.portfolio__link(href="https://kapitroman.github.io/Jellewery/") Тренеровочный проект. Магазин Jewellery.
-        p.portfolio__description Адаптивная верстка. Верстка и JS поддерживает EI 11.
-      .portfolio__item
-        .portfolio__image
-          +picture("content", "israel", "jpg", 945, 700, "скриншот лендинга приложения Israel")
-        a.portfolio__link(href="https://kapitroman.github.io/Israel/") Тренеровочный проект. Лендинг Israel.
-        p.portfolio__description Адаптивная верстка. Верстка и JS поддерживает EI 11.
-      .portfolio__item
-        .portfolio__image
-          +picture("content", "bicycles", "jpg", 945, 700, "скриншот лендинга Bicycles")
-        a.portfolio__link(href="https://kapitroman.github.io/bicycles/") Тренеровочный проект. Лендинг Bicycles.
         p.portfolio__description Адаптивная верстка. Верстка и JS поддерживает EI 11.

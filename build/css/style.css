@@ -1660,23 +1660,21 @@ h2.titles {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   list-style: none;
-  width: calc(100% + 57px);
+  width: 100%;
   margin: 0;
-  margin-top: -60px;
-  margin-left: -29px;
-  margin-right: -29px;
   padding: 0;
 }
 
+.skills__list + .skills__text {
+  margin-top: 44px;
+}
+
 .skills__item {
-  min-width: 143px;
-  margin-top: 60px;
-  margin-left: 29px;
-  margin-right: 28px;
+  min-width: 130px;
 }
 
 .skills__icon {
@@ -1921,6 +1919,23 @@ h2.titles {
 
   .about__wrap-text {
     max-width: 580px;
+  }
+
+  .skills__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: calc(100% + 57px);
+    margin-top: -60px;
+    margin-left: -29px;
+    margin-right: -29px;
+  }
+
+  .skills__item {
+    min-width: 143px;
+    margin-top: 60px;
+    margin-left: 29px;
+    margin-right: 28px;
   }
 }
 

@@ -2,11 +2,11 @@ mixin skills()
   section.skills.section-navigation#skills
     .container
       h2.titles Навыки
-      p.skills__text В основном работаю со&nbsp;следующими технологиями/инструментами:
+      p.skills__text В основном работаю со&nbsp;следующими технологиями:
       ul.skills__list
         li.skills__item
           +icon("icon-html5", 60, 60).skills__icon
-          p.skills__name HTML / Pug
+          p.skills__name HTML
           .skills__rating
             +icon("icon-star", 15, 13).skills__star.skills__star--active
             +icon("icon-star", 15, 13).skills__star.skills__star--active
@@ -15,7 +15,7 @@ mixin skills()
             +icon("icon-star", 15, 13).skills__star.skills__star--active
         li.skills__item
           +icon("icon-css", 60, 60).skills__icon
-          p.skills__name CSS / SASS
+          p.skills__name CSS
           .skills__rating
             +icon("icon-star", 15, 13).skills__star.skills__star--active
             +icon("icon-star", 15, 13).skills__star.skills__star--active
@@ -43,6 +43,53 @@ mixin skills()
         li.skills__item
           +icon("icon-node", 60, 60).skills__icon
           p.skills__name Node.js / Express
+          .skills__rating
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star
+            +icon("icon-star", 15, 13).skills__star
+      p.skills__text и инструментами:
+      ul.skills__list
+        li.skills__item
+          +icon("icon-pug", 60, 60).skills__icon
+          p.skills__name Pug
+          .skills__rating
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+        li.skills__item
+          +icon("icon-sass", 60, 60).skills__icon
+          p.skills__name SASS
+          .skills__rating
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+        li.skills__item
+          +icon("icon-gulp", 60, 60).skills__icon
+          p.skills__name Gulp.js
+          .skills__rating
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+        li.skills__item
+          +icon("icon-webpack", 60, 60).skills__icon
+          p.skills__name Webpack
+          .skills__rating
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star.skills__star--active
+            +icon("icon-star", 15, 13).skills__star
+            +icon("icon-star", 15, 13).skills__star
+        li.skills__item
+          +icon("icon-git", 60, 60).skills__icon
+          p.skills__name GIT
           .skills__rating
             +icon("icon-star", 15, 13).skills__star.skills__star--active
             +icon("icon-star", 15, 13).skills__star.skills__star--active
