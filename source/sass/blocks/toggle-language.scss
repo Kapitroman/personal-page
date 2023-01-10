@@ -18,15 +18,18 @@
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    border: 1px solid $color-grey;
+    //border: 1px solid $color-grey;
+    border: 1px solid $color-default-white;
 
     font-size: 12px;
     line-height: 16px;
-    //color: $color-grey;
-    color: $color-default-white;
+    color: $color-grey;
+    //color: $color-default-white;
+
     cursor: pointer;
 
-    background-color: $color-grey;
+    //background-color: $color-grey;
+    background-color: $color-default-white;
 
     transition: border-color $trans-default, background-color trans-default, color $trans-default;
   }
