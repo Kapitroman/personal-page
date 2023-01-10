@@ -3,7 +3,7 @@
   min-height: 79px;
 
   @include vp-767 {
-    padding: 35px 0 20px 0;
+    padding: 35px 0 35px 0;
     min-height: initial;
   }
 
@@ -164,7 +164,11 @@
 
     .navigation-changer__item {
       margin-right: auto;
-      margin-bottom: 60px;
+      //margin-bottom: 60px;
+    }
+
+    li + li {
+      margin-top: 50px;
     }
 
     .navigation-changer__wrapper-toggle {
@@ -194,7 +198,11 @@
 
   @include vp-374 {
     .navigation-changer__item {
-      margin-bottom: 30px;
+      //margin-bottom: 30px;
+    }
+
+    li + li {
+      margin-top: 30px;
     }
 
     .navigation-changer__wrapper-toggle {

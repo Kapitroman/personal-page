@@ -4,6 +4,7 @@ import './modules/move-to';
 import {NavigationChanger} from './modules/navigation-changer';
 import {initBurgerMenu} from './modules/init-burger-menu';
 import {initChangeLanguage} from './modules/init-change-language';
+import {initDynamicAdaptive} from './modules/init-dynamic-adaptive';
 
 // ---------------------------------
 
@@ -23,6 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     const navigationChanger = new NavigationChanger();
     navigationChanger.init();
+    initDynamicAdaptive();
     initBurgerMenu();
   });
 });
