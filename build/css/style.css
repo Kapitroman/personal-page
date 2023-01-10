@@ -804,6 +804,7 @@ button,
 .footer__text {
   margin: 0;
   margin-bottom: 25px;
+  min-height: 22px;
 }
 
 .footer__email {
@@ -1448,6 +1449,7 @@ h2.titles {
 
 .navigation-changer {
   border-bottom: 1px solid #828282;
+  min-height: 79px;
 }
 
 .navigation-changer__list {
@@ -1588,11 +1590,13 @@ h2.titles {
 
 .intro h1 {
   margin-bottom: 15px;
+  min-height: 59px;
 }
 
 .intro p {
   margin: 0;
   margin-bottom: 30px;
+  min-height: 44px;
 }
 
 .intro p span {
@@ -1635,6 +1639,14 @@ h2.titles {
   margin: 0;
 }
 
+.about__text {
+  min-height: 22px;
+}
+
+.about__text--more-string {
+  min-height: 44px;
+}
+
 .about__text + a,
 .about__list + a,
 .about__text + .about__list {
@@ -1647,11 +1659,13 @@ h2.titles {
   text-underline-offset: 3px;
   font-size: 14px;
   line-height: 18px;
+  min-height: 18px;
 }
 
 .skills__text {
   margin: 0;
   margin-bottom: 44px;
+  min-height: 22px;
 }
 
 .skills__list {
@@ -1825,6 +1839,7 @@ h2.titles {
 
   .navigation-changer {
     padding: 35px 0 20px 0;
+    min-height: initial;
   }
 
   .navigation-changer__list {
@@ -1915,6 +1930,7 @@ h2.titles {
 
   .intro h1 {
     display: none;
+    min-height: 36px;
   }
 
   .about__wrap-text {

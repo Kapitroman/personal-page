@@ -23,15 +23,15 @@
         <div class="container">
           <nav class="navigation-changer">
             <div class="navigation-changer__wrapper-toggle">
-              <h1 class="titles">Роман Капитонов</h1>
+              <h1 class="titles" data-lang-key="headerTitle"></h1>
               <button class="navigation-changer__toggle" type="button" aria-label="Переключатель отображения меню" aria-pressed="false"><span class="navigation-changer__burger-line navigation-changer__burger-line--top"></span><span class="navigation-changer__burger-line navigation-changer__burger-line--center"></span><span class="navigation-changer__burger-line navigation-changer__burger-line--bottom"></span></button>
             </div>
             <ul class="navigation-changer__list">
-              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#intro" data-navigation-link>Главная</a></li>
-              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#about" data-navigation-link>Обо мне</a></li>
-              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#skills" data-navigation-link>Навыки</a></li>
-              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#portfolio" data-navigation-link>Портфолио</a></li>
-              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#contacts" data-navigation-link>Контакты</a></li>
+              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#intro" data-navigation-link data-lang-key="navigationLinks"></a></li>
+              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#about" data-navigation-link data-lang-key="navigationLinks"></a></li>
+              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#skills" data-navigation-link data-lang-key="navigationLinks"></a></li>
+              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#portfolio" data-navigation-link data-lang-key="navigationLinks"></a></li>
+              <li class="navigation-changer__item"><a class="navigation-changer__link" href="#contacts" data-navigation-link data-lang-key="navigationLinks"></a></li>
             </ul>
           </nav>
         </div>
@@ -39,8 +39,19 @@
       <main>
         <section class="intro section-navigation" id="intro">
           <div class="container">
-            <h1 class="titles">Роман Капитонов</h1>
-            <p>Верстальщик | Веб-разработчик <span>48 лет, Москва</span></p>
+            <h1 class="titles" data-lang-key="headersSection"></h1>
+            <p data-lang-key="introSection"></p>
+            <div class="toggles-container">
+              <fieldset class="toggle-language">
+                <legend class="toggle-language__legrnd">Переключатель языка</legend>
+                <label class="toggle-language__label">
+                  <input class="toggle-language__input" type="radio" name="toggle-language" value="ru" aria-label="русский" checked><span>Ru</span>
+                </label>
+                <label class="toggle-language__label">
+                  <input class="toggle-language__input" type="radio" name="toggle-language" value="en" aria-label="английский"><span>En</span>
+                </label>
+              </fieldset>
+            </div>
             <div class="intro__image">
               <picture>
                 <source type="image/webp" srcset="img/content/iam-21.webp, img/content/iam-21@2x.webp 2x"><img src="img/content/iam-21.jpg" srcset="img/content/iam-21@2x.jpg 2x" width="945" height="421" alt="Роман Капитонов">
@@ -50,37 +61,34 @@
         </section>
         <section class="about section-navigation" id="about">
           <div class="container">
-            <h2 class="titles">Обо мне</h2>
+            <h2 class="titles" data-lang-key="headersSection"></h2>
             <div class="about__wrap-text">
               <div class="about__text-section">
-                <p class="about__text">Привет, я Роман — верстальщик и веб-разработчик из Москвы. Интересуюсь веб технологиями и всем, что с этим связано.</p>
+                <p class="about__text about__text--more-string" data-lang-key="aboutSection"></p>
               </div>
               <div class="about__text-section">
-                <p class="about__text">В 2000 г. окончил с успешной защитой курсы HTMLAcademy по следующим направлениям:</p>
+                <p class="about__text" data-lang-key="aboutSection"></p>
                 <ul class="about__list">
-                  <li class="about__list-item">HTML и CSS. Профессиональная вёрстка сайтов</li>
-                  <li class="about__list-item">HTML и CSS. Адаптивная вёрстка и автоматизация</li>
-                  <li class="about__list-item">JavaScript. Профессиональная разработка веб-интерфейсов</li>
-                  <li class="about__list-item">JavaScript. Архитектура клиентских приложений</li>
-                  <li class="about__list-item">Node.js. Профессиональная разработка REST API</li>
-                </ul><a class="about__link" href="https://htmlacademy.ru/profile/id1248115/certificates">Посмотреть сертификаты</a>
+                  <li class="about__list-item" data-lang-key="aboutSection"></li>
+                  <li class="about__list-item" data-lang-key="aboutSection"></li>
+                  <li class="about__list-item" data-lang-key="aboutSection"></li>
+                  <li class="about__list-item" data-lang-key="aboutSection"></li>
+                  <li class="about__list-item" data-lang-key="aboutSection"></li>
+                </ul><a class="about__link" href="https://htmlacademy.ru/profile/id1248115/certificates" data-lang-key="aboutSection">Посмотреть сертификаты</a>
               </div>
               <div class="about__text-section">
-                <p class="about__text">В 2000 по 2002 гг. прошел стажировку в Лиге А.</p><a class="about__link" href="https://disk.yandex.ru/i/Scu-6tF-eQKz5Q">Посмотреть рекомендацию</a>
+                <p class="about__text" data-lang-key="aboutSection"></p><a class="about__link" href="https://disk.yandex.ru/i/Scu-6tF-eQKz5Q" data-lang-key="aboutSection">Посмотреть рекомендацию</a>
               </div>
               <div class="about__text-section">
-                <p class="about__text">
-                  С 2002 г занимаюсь фрилансом по верстке и веб-разработке.
-                  Готов реализовать отличные проекты  с замечательными людьми.
-                </p>
+                <p class="about__text about__text--more-string" data-lang-key="aboutSection"></p>
               </div>
             </div>
           </div>
         </section>
         <section class="skills section-navigation" id="skills">
           <div class="container">
-            <h2 class="titles">Навыки</h2>
-            <p class="skills__text">В основном работаю со&nbsp;следующими технологиями:</p>
+            <h2 class="titles" data-lang-key="headersSection"></h2>
+            <p class="skills__text" data-lang-key="skillsSection"></p>
             <ul class="skills__list">
               <li class="skills__item">
                 <svg class="skills__icon" width="60" height="60" aria-hidden="true">
@@ -198,7 +206,7 @@
                 </div>
               </li>
             </ul>
-            <p class="skills__text">и инструментами:</p>
+            <p class="skills__text" data-lang-key="skillsSection"></p>
             <ul class="skills__list">
               <li class="skills__item">
                 <svg class="skills__icon" width="60" height="60" aria-hidden="true">
@@ -320,47 +328,47 @@
         </section>
         <section class="portfolio section-navigation" id="portfolio">
           <div class="container">
-            <h2 class="titles">Портфолио</h2>
+            <h2 class="titles" data-lang-key="headersSection"></h2>
             <div class="portfolio__item">
               <div class="portfolio__image">
                 <picture>
                   <source type="image/webp" srcset="img/content/severianochka.webp, img/content/severianochka@2x.webp 2x"><img src="img/content/severianochka.jpg" srcset="img/content/severianochka@2x.jpg 2x" width="945" height="700" alt="скриншот приложения severianochka">
                 </picture>
-              </div><a class="portfolio__link" href="https://kapitroman.github.io/severianochka/">Тестовый проект "Северяночка"</a>
-              <p class="portfolio__description">Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов..</p>
+              </div><a class="portfolio__link" href="https://kapitroman.github.io/severianochka/" data-lang-key="projectLinks">Тестовый проект "Северяночка"</a>
+              <p class="portfolio__description" data-lang-key="projectDescription"></p>
             </div>
             <div class="portfolio__item">
               <div class="portfolio__image">
                 <picture>
                   <source type="image/webp" srcset="img/content/notab.webp, img/content/notab@2x.webp 2x"><img src="img/content/notab.jpg" srcset="img/content/notab@2x.jpg 2x" width="945" height="700" alt="скриншот приложения notab">
                 </picture>
-              </div><a class="portfolio__link" href="https://kapitroman.github.io/notab/">Тестовое задание для компании PURRWEB.</a>
-              <p class="portfolio__description">Лендинг. Адаптивная верстка,и JavaScript для компонентов.</p>
+              </div><a class="portfolio__link" href="https://kapitroman.github.io/notab/" data-lang-key="projectLinks"></a>
+              <p class="portfolio__description" data-lang-key="projectDescription"></p>
             </div>
             <div class="portfolio__item">
               <div class="portfolio__image">
                 <picture>
                   <source type="image/webp" srcset="img/content/poplar.webp, img/content/poplar@2x.webp 2x"><img src="img/content/poplar.jpg" srcset="img/content/poplar@2x.jpg 2x" width="945" height="700" alt="скриншот сайта poplar">
                 </picture>
-              </div><a class="portfolio__link" href="https://kapitroman.github.io/poplar/">Тестовый роект Poplar.</a>
-              <p class="portfolio__description">Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.</p>
+              </div><a class="portfolio__link" href="https://kapitroman.github.io/poplar/" data-lang-key="projectLinks"></a>
+              <p class="portfolio__description" data-lang-key="projectDescription"></p>
             </div>
             <div class="portfolio__item">
               <div class="portfolio__image">
                 <picture>
                   <source type="image/webp" srcset="img/content/jewellery.webp, img/content/jewellery@2x.webp 2x"><img src="img/content/jewellery.jpg" srcset="img/content/jewellery@2x.jpg 2x" width="945" height="700" alt="скриншот сайта jewelly">
                 </picture>
-              </div><a class="portfolio__link" href="https://kapitroman.github.io/Jellewery/">Тренеровочный проект. Магазин Jewellery.</a>
-              <p class="portfolio__description">Адаптивная верстка. Верстка и JS поддерживает EI 11.</p>
+              </div><a class="portfolio__link" href="https://kapitroman.github.io/Jellewery/" data-lang-key="projectLinks"></a>
+              <p class="portfolio__description" data-lang-key="projectDescription"></p>
             </div>
           </div>
         </section>
       </main>
       <footer class="footer section-navigation" id="contacts">
         <div class="container">
-          <h2 class="titles">Контакты</h2>
-          <p class="footer__text">Вы можете написать e-mail:</p><a class="footer__email" href="mailto:kapitroman@yandex.ru">Send E-mail</a>
-          <p class="footer__text">или связаться по другим каналам:</p>
+          <h2 class="titles" data-lang-key="headersSection"></h2>
+          <p class="footer__text" data-lang-key="contactsSection"></p><a class="footer__email" href="mailto:kapitroman@yandex.ru">Send E-mail</a>
+          <p class="footer__text" data-lang-key="contactsSection"></p>
           <ul class="footer__links">
             <li class="footer__link"><span class="visually-hidden">github</span><a href="https://github.com/Kapitroman">
                 <svg width="40" height="40" aria-hidden="true">

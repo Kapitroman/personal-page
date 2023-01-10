@@ -20,6 +20,14 @@
     margin: 0;
   }
 
+  &__text {
+    min-height: 22px;
+  }
+
+  &__text--more-string {
+    min-height: 44px;
+  }
+
   &__text + a,
   &__list + a,
   &__text + .about__list {
@@ -33,6 +41,8 @@
     text-underline-offset: 3px;
     font-size: 14px;
     line-height: 18px;
+
+    min-height: 18px;
 
     @media (hover: hover), screen and (min-width: 0\0) {
       &:hover,

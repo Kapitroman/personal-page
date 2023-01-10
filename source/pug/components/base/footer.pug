@@ -1,10 +1,10 @@
 mixin footer(footerMods)
   footer.footer(class=footerMods).section-navigation#contacts
     .container
-      h2.titles Контакты
-      p.footer__text Вы можете написать e-mail:
+      h2.titles(data-lang-key="headersSection")
+      p.footer__text(data-lang-key="contactsSection")
       a(href="mailto:kapitroman@yandex.ru").footer__email Send E-mail
-      p.footer__text или связаться по другим каналам:
+      p.footer__text(data-lang-key="contactsSection")
       ul.footer__links
         li.footer__link
           span.visually-hidden github

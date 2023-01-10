@@ -1,0 +1,82 @@
+{
+  "navigationLinks": {
+    "ru": ["Главная", "Обо мне", "Навыки", "Портфолио", "Контакты"],
+    "en": ["Home", "About me", "Skills", "Portfolio", "Contacts"]
+  },
+  "headerTitle": {
+    "ru": ["Роман Капитонов"],
+    "en": ["Roman Kapitonov"]
+  },
+  "headersSection": {
+    "ru": ["Роман Капитонов", "Обо мне", "Навыки", "Портфолио", "Контакты"],
+    "en": ["Roman Kapitonov", "About me", "Skills", "Portfolio", "Contacts"]
+  },
+  "introSection": {
+    "ru": ["Верстальщик | Веб-разработчик <span>48 лет, Москва</span>"],
+    "en": ["Web developer | Layout master <span>48 years old, Moscow</span>"]
+  },
+  "aboutSection": {
+    "ru": [
+            "Привет, я Роман — верстальщик и веб-разработчик из Москвы. Интересуюсь веб технологиями и всем, что с этим связано.",
+            "В 2000 г. окончил с успешной защитой курсы HTMLAcademy по следующим направлениям:",
+            "HTML и CSS. Профессиональная вёрстка сайтов",
+            "HTML и CSS. Адаптивная вёрстка и автоматизация",
+            "JavaScript. Профессиональная разработка веб-интерфейсов",
+            "JavaScript. Архитектура клиентских приложений",
+            "Node.js. Профессиональная разработка REST API",
+            "Посмотреть сертификаты",
+            "В 2000 по 2002 гг. прошел стажировку в Лиге А.",
+            "Посмотреть рекомендацию",
+            "С 2002 г занимаюсь фрилансом по верстке и веб-разработке. Готов реализовать отличные проекты с замечательными людьми."
+          ],
+    "en": [
+            "Hello, I'm Roman — layout designer and web developer from Moscow. I am interested in web technologies and everything connected with it.",
+            "In 2000, he successfully completed HTMLAcademy courses in the following areas:",
+            "HTML and CSS. Professional website layout",
+            "HTML and CSS. Responsive layout and automation",
+            "JavaScript. Professional development of web interfaces",
+            "JavaScript. Client Application Architecture",
+            "Node.js Professional REST API Development",
+            "View certificates",
+            "In 2000 to 2002 Trained in League A.",
+            "See recommendation",
+            "Since 2002, I have been freelancing in layout and web development. Ready to implement great projects with great people."
+          ]
+  },
+  "skillsSection": {
+    "ru": ["В основном работаю со следующими технологиями:", "и инструментами:"],
+    "en": ["I mainly work with the following technologies:", "and tools:"]
+  },
+  "projectLinks": {
+    "ru": [
+            "Тестовый проект &quot;Северяночка&quot;",
+            "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
+            "Тестовый проект &quot;Poplar&quot;",
+            "Тренеровочный проект. Магазин &quot;Jewellery&quot;."
+          ],
+    "en": [
+            "Test project &quot;Severyanochka&quot;",
+            "Project &quot;Notab&quot;. Test task for PURRWEB",
+            "Test project &quot;Poplar&quot;",
+            "Training project. Shop &quot;Jewellery&quot;"
+          ]
+  },
+  "projectDescription": {
+    "ru": [
+            "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов",
+            "Лендинг. Адаптивная верстка,и JavaScript для компонентов",
+            "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов",
+            "Адаптивная верстка. Верстка и JS поддерживает EI 11."
+          ],
+    "en": [
+            "Online-shop pages. Responsive layout, JavaScript for components",
+            "Landing page. Responsive layout, JavaScript for components",
+            "Site pages. Responsive layout, JavaScript for components",
+            "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11"
+          ]
+  },
+  "contactsSection": {
+    "ru": ["Вы можете написать e-mail:", "или связаться по другим каналам:"],
+    "en": ["You can write an e-mail:", "or contact through other channels"]
+  }
+}

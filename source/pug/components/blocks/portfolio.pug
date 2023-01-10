@@ -1,24 +1,24 @@
 mixin portfolio()
   section.portfolio.section-navigation#portfolio
     .container
-      h2.titles Портфолио
+      h2.titles(data-lang-key="headersSection")
       .portfolio__item
         .portfolio__image
           +picture("content", "severianochka", "jpg", 945, 700, "скриншот приложения severianochka")
-        a.portfolio__link(href="https://kapitroman.github.io/severianochka/") Тестовый проект "Северяночка"
-        p.portfolio__description Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов..
+        a.portfolio__link(href="https://kapitroman.github.io/severianochka/" data-lang-key="projectLinks") Тестовый проект "Северяночка"
+        p.portfolio__description(data-lang-key="projectDescription")
       .portfolio__item
         .portfolio__image
           +picture("content", "notab", "jpg", 945, 700, "скриншот приложения notab")
-        a.portfolio__link(href="https://kapitroman.github.io/notab/") Тестовое задание для компании PURRWEB.
-        p.portfolio__description Лендинг. Адаптивная верстка,и JavaScript для компонентов.
+        a.portfolio__link(href="https://kapitroman.github.io/notab/" data-lang-key="projectLinks")
+        p.portfolio__description(data-lang-key="projectDescription")
       .portfolio__item
         .portfolio__image
           +picture("content", "poplar", "jpg", 945, 700, "скриншот сайта poplar")
-        a.portfolio__link(href="https://kapitroman.github.io/poplar/") Тестовый роект Poplar.
-        p.portfolio__description Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.
+        a.portfolio__link(href="https://kapitroman.github.io/poplar/" data-lang-key="projectLinks")
+        p.portfolio__description(data-lang-key="projectDescription")
       .portfolio__item
         .portfolio__image
           +picture("content", "jewellery", "jpg", 945, 700, "скриншот сайта jewelly")
-        a.portfolio__link(href="https://kapitroman.github.io/Jellewery/") Тренеровочный проект. Магазин Jewellery.
-        p.portfolio__description Адаптивная верстка. Верстка и JS поддерживает EI 11.
+        a.portfolio__link(href="https://kapitroman.github.io/Jellewery/" data-lang-key="projectLinks")
+        p.portfolio__description(data-lang-key="projectDescription")

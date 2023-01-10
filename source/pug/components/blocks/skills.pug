@@ -1,8 +1,8 @@
 mixin skills()
   section.skills.section-navigation#skills
     .container
-      h2.titles Навыки
-      p.skills__text В основном работаю со&nbsp;следующими технологиями:
+      h2.titles(data-lang-key="headersSection")
+      p.skills__text(data-lang-key="skillsSection")
       ul.skills__list
         li.skills__item
           +icon("icon-html5", 60, 60).skills__icon
@@ -49,7 +49,7 @@ mixin skills()
             +icon("icon-star", 15, 13).skills__star.skills__star--active
             +icon("icon-star", 15, 13).skills__star
             +icon("icon-star", 15, 13).skills__star
-      p.skills__text и инструментами:
+      p.skills__text(data-lang-key="skillsSection")
       ul.skills__list
         li.skills__item
           +icon("icon-pug", 60, 60).skills__icon

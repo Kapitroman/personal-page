@@ -3,6 +3,7 @@ import {ScrollLock} from './utils/scroll-lock';//
 import './modules/move-to';
 import {NavigationChanger} from './modules/navigation-changer';
 import {initBurgerMenu} from './modules/init-burger-menu';
+import {initChangeLanguage} from './modules/init-change-language';
 
 // ---------------------------------
 
@@ -12,6 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------
 
   iosVhFix();
+  initChangeLanguage();
 
   // Modules
   // ---------------------------------
