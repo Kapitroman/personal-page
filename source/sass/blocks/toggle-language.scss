@@ -1,0 +1,53 @@
+.toggle-language {
+  display: flex;
+
+  margin: 0;
+  padding: 2px;
+  border: 1px solid $color-black;
+  border-radius: 18px;
+
+  label + label {
+    margin-left: 5px;
+  }
+
+  &__input + span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid $color-grey;
+
+    font-size: 12px;
+    line-height: 16px;
+    //color: $color-grey;
+    color: $color-default-white;
+    cursor: pointer;
+
+    background-color: $color-grey;
+
+    transition: border-color $trans-default, background-color trans-default, color $trans-default;
+  }
+
+  &__input:checked + span {
+    border: 1px solid $color-black;
+
+    color: $color-black;
+    cursor: default;
+    background-color: $color-default-white;
+  }
+
+  &__input:focus-visible + span {
+    box-shadow: 0 0 0 1px blue;
+  }
+  /*
+  @media (hover: hover), screen and (min-width: 0\0) {
+    &:focus {
+      opacity: 0.8;
+      outline: 1px solid blue;
+    }
+  }
+  */
+}

@@ -3,18 +3,18 @@ mixin intro()
     //- вставлять блоки во внешний контейнер неверно
     //- все блоки содержат в себе container без доп класса tutorial__wrapper
     .container
-      h1.titles(data-lang-key="headersSection")
-      //-p(data-lang-key="headersSection") Верстальщик | Веб-разработчик <span>48 лет, Москва</span>
-      p(data-lang-key="introSection")
-      .toggles-container(data-da=".navigator-toggles, 767, first")
-        fieldset.toggle-language
-          legend.toggle-language__legrnd Переключатель языка
-          label.toggle-language__label
-            input.toggle-language__input(type="radio" name="toggle-language" value="ru" aria-label="русский" checked)
-            span Ru
-          label.toggle-language__label
-            input.toggle-language__input(type="radio" name="toggle-language" value="en" aria-label="английский" )
-            span En
+      .intro__wrap
+        h1.titles(data-lang-key="headersSection")
+        p(data-lang-key="introSection")
+        .toggles-container(data-da=".navigator-toggles, 767, first")
+          fieldset.toggle-language
+            legend.visually-hidden Переключатель языка
+            label.toggle-language__label
+              input.toggle-language__input.visually-hidden(type="radio" name="toggle-language" value="ru" aria-label="русский" checked)
+              span Ru
+            label.toggle-language__label
+              input.toggle-language__input.visually-hidden(type="radio" name="toggle-language" value="en" aria-label="английский" )
+              span En
 
       .intro__image
         +picture("content", "iam-21", "jpg", 945, 421, "Роман Капитонов")

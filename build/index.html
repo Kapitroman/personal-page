@@ -40,18 +40,20 @@
       <main>
         <section class="intro section-navigation" id="intro">
           <div class="container">
-            <h1 class="titles" data-lang-key="headersSection"></h1>
-            <p data-lang-key="introSection"></p>
-            <div class="toggles-container" data-da=".navigator-toggles, 767, first">
-              <fieldset class="toggle-language">
-                <legend class="toggle-language__legrnd">Переключатель языка</legend>
-                <label class="toggle-language__label">
-                  <input class="toggle-language__input" type="radio" name="toggle-language" value="ru" aria-label="русский" checked><span>Ru</span>
-                </label>
-                <label class="toggle-language__label">
-                  <input class="toggle-language__input" type="radio" name="toggle-language" value="en" aria-label="английский"><span>En</span>
-                </label>
-              </fieldset>
+            <div class="intro__wrap">
+              <h1 class="titles" data-lang-key="headersSection"></h1>
+              <p data-lang-key="introSection"></p>
+              <div class="toggles-container" data-da=".navigator-toggles, 767, first">
+                <fieldset class="toggle-language">
+                  <legend class="visually-hidden">Переключатель языка</legend>
+                  <label class="toggle-language__label">
+                    <input class="toggle-language__input visually-hidden" type="radio" name="toggle-language" value="ru" aria-label="русский" checked><span>Ru</span>
+                  </label>
+                  <label class="toggle-language__label">
+                    <input class="toggle-language__input visually-hidden" type="radio" name="toggle-language" value="en" aria-label="английский"><span>En</span>
+                  </label>
+                </fieldset>
+              </div>
             </div>
             <div class="intro__image">
               <picture>

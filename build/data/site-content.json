@@ -12,8 +12,8 @@
     "en": ["Roman Kapitonov", "About me", "Skills", "Portfolio", "Contacts"]
   },
   "introSection": {
-    "ru": ["Верстальщик | Веб-разработчик <span>48 лет, Москва</span>"],
-    "en": ["Web developer | Layout master <span>48 years old, Moscow</span>"]
+    "ru": ["Верстальщик | Веб&nbsp;-&nbsp;разработчик <span>48 лет, Москва</span>"],
+    "en": ["Web developer | Layout&nbsp;master <span>48 years old, Moscow</span>"]
   },
   "aboutSection": {
     "ru": [

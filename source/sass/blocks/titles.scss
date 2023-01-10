@@ -15,11 +15,21 @@ h1.titles {
   font-size: 47px;
   line-height: 59px;
 
+  @include vp-1023 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
   @include vp-767 {
     margin-right: 40px;
 
     font-size: 28px;
     line-height: 36px;
+  }
+
+  @include vp-374 {
+    //font-size: 22px;
+    line-height: 30px;
   }
 }
 
