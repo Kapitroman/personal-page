@@ -36,6 +36,9 @@ const changeLanguage = async (langValue) => {
         })
       }
     }
+
+    document.documentElement.setAttribute("lang", lang);
+
   } catch(error) {
     console.log(error.message);
   }
