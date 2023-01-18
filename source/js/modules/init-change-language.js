@@ -50,17 +50,17 @@ const initChangeLanguage = () => {
   let currentRadio;
 
   if (savedLangValue !== null) {
-    currentRadio = document.querySelector(`.toggle-language__input[value=${savedLangValue}]`);
+    currentRadio = document.querySelector(`[name="toggle-language"][value=${savedLangValue}]`);
     lang = savedLangValue;
 
   } else {
-    currentRadio = document.querySelector('.toggle-language__input[value=ru]');
+    currentRadio = document.querySelector('[name="toggle-language"][value=ru]');
   }
 
   currentRadio.checked = true;
   changeLanguage(lang);
 
-  const toggleLanguage = document.querySelector('.toggle-language');
+  const toggleLanguage = document.querySelector('[data-toggle-language]');
   toggleLanguage.addEventListener('change', setLanguageValue);
 }
 

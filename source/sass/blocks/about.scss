@@ -52,3 +52,9 @@
     }
   }
 }
+
+[data-color-theme="dark"] .about {
+  .about__link {
+    color: $color-default-white;
+  }
+}

@@ -13,3 +13,7 @@
   bottom: 0;
   overflow-y: auto;
 }
+
+[data-color-theme="dark"] .header {
+  background-color: $color-black;
+}

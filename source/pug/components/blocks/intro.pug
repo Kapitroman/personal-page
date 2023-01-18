@@ -1,19 +1,27 @@
 mixin intro()
   section.intro.section-navigation#intro
-    //- вставлять блоки во внешний контейнер неверно
-    //- все блоки содержат в себе container без доп класса tutorial__wrapper
     .container
       .intro__wrap
         h1.titles(data-lang-key="headersSection")
         p(data-lang-key="introSection")
         .toggles-container(data-da=".navigator-toggles, 767, first")
-          fieldset.toggle-language
+          fieldset.toggle(data-toggle-color-theme)
+            legend.visually-hidden Переключатель цветовой схемы
+            label
+              input.visually-hidden(type="radio" name="toggle-color-theme" value="light" aria-label="светлая")
+              span
+                +icon("icon-sun", 16, 16)
+            label
+              input.visually-hidden(type="radio" name="toggle-color-theme" value="dark" aria-label="темная")
+              span
+                +icon("icon-dark", 16, 16)
+          fieldset.toggle(data-toggle-language)
             legend.visually-hidden Переключатель языка
-            label.toggle-language__label
-              input.toggle-language__input.visually-hidden(type="radio" name="toggle-language" value="ru" aria-label="русский" checked)
+            label
+              input.visually-hidden(type="radio" name="toggle-language" value="ru" aria-label="русский" checked)
               span Ru
-            label.toggle-language__label
-              input.toggle-language__input.visually-hidden(type="radio" name="toggle-language" value="en" aria-label="английский" )
+            label
+              input.visually-hidden(type="radio" name="toggle-language" value="en" aria-label="английский" )
               span En
 
       .intro__image

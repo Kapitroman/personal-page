@@ -66,3 +66,9 @@
     color: $color-black;
   }
 }
+
+[data-color-theme="dark"] .skills {
+  .skills__star--active {
+    color: #ffff77;
+  }
+}

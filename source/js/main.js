@@ -5,18 +5,19 @@ import {NavigationChanger} from './modules/navigation-changer';
 import {initBurgerMenu} from './modules/init-burger-menu';
 import {initChangeLanguage} from './modules/init-change-language';
 import {initDynamicAdaptive} from './modules/init-dynamic-adaptive';
+import {initChangeColorTheme} from './modules/init-change-color-theme';
 
 // ---------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
 
   // Utils
+  iosVhFix();
   // ---------------------------------
 
-  iosVhFix();
-  initChangeLanguage();
-
   // Modules
+  initChangeColorTheme();
+  initChangeLanguage();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

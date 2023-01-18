@@ -47,3 +47,9 @@
     margin: 0;
   }
 }
+
+[data-color-theme="dark"] .portfolio {
+  .portfolio__link {
+    color: $color-default-white;
+  }
+}

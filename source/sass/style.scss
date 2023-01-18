@@ -10,7 +10,7 @@
 
 @import "variables";
 @import "mixins";
-@import "functions";
+// @import "functions";
 @import "keyframes";
 @import "global/fonts";
 @import "global/reboot";
@@ -22,16 +22,16 @@
 
 @import "blocks/header";
 @import "blocks/footer";
-@import "blocks/modal";
-@import "blocks/btn";
-@import "blocks/custom-input";
-@import "blocks/custom-toggle";
-@import "blocks/custom-select";
+// @import "blocks/modal";
+// @import "blocks/btn";
+// @import "blocks/custom-input";
+// @import "blocks/custom-toggle";
+// @import "blocks/custom-select";
 @import "blocks/titles";
 @import "blocks/navigation-changer";
 @import "blocks/section-navigation";
 @import "blocks/navigator-toggles";
-@import "blocks/toggle-language";
+@import "blocks/toggle";
 @import "blocks/toggles-container";
 @import "blocks/intro";
 @import "blocks/about";

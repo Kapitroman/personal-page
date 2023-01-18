@@ -17,7 +17,7 @@ html {
   font-size: $fz-default;
   line-height: 22px;
   font-family: $ff-gilroy;
-  color: $color-black;
+  //color: $color-black;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,12 +31,22 @@ body {
   width: 100%;
   height: 100%;
 
+  color: $color-black;
   background-color: $color-default-white;
 }
 
+body[data-color-theme="dark"]  {
+  background-color: $color-black;
+  color: $color-default-white;
+}
+
 a {
-  color: $color-default-black;
+  color: $color-black;
   text-decoration: none;
+}
+
+[data-color-theme="dark"] a {
+  color: $color-default-white;
 }
 
 img,
@@ -56,10 +66,17 @@ textarea {
 // rgba не подойдет, сконвертируйте цвет в hex без прозрачности
 // если в стилях уже используется box-shadow есть другое решение -
 // задать к списку транзишенов `background-color 10000000s ease-out`
+
 input:-webkit-autofill {
   box-shadow: inset 0 0 0 1000px $color-default-white;
 
   -webkit-text-fill-color: $color-default-black;
+}
+
+[data-color-theme="dark"]  input:-webkit-autofill {
+  box-shadow: inset 0 0 0 1000px $color-default-black;
+
+  -webkit-text-fill-color: $color-default-white;
 }
 
 // firefox placeholder \ invalid fix + ios bdrs

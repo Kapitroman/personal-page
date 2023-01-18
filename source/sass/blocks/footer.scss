@@ -18,6 +18,15 @@
 
     color: $color-default-white;
     font-weight: 700;
+
+    transition: opacity $trans-default;
+
+    @media (hover: hover), screen and (min-width: 0\0) {
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
   }
 
   &__links {
@@ -32,8 +41,17 @@
   &__link {
     display: block;
 
+    transition: opacity $trans-default;
+
     svg {
-      color: $color-default-white;
+      color: $color-black;
+    }
+
+    @media (hover: hover), screen and (min-width: 0\0) {
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
     }
   }
 
@@ -41,3 +59,18 @@
     margin-right: 60px;
   }
 }
+
+
+[data-color-theme="dark"] .footer {
+  .footer__email {
+    color: $color-black;
+    background-color: $color-default-white;
+  }
+
+  .footer__link {
+    svg {
+      color: $color-default-white;
+    }
+  }
+}
+

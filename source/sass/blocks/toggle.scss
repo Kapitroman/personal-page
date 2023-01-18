@@ -1,0 +1,87 @@
+.toggle {
+  display: flex;
+
+  margin: 0;
+  padding: 2px;
+  border: 1px solid $color-black;
+  border-radius: 16px;
+
+  @include vp-767 {
+    border-radius: 19px;
+  }
+
+  label + label {
+    margin-left: 5px;
+  }
+
+  input + span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid $color-default-white;
+
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-grey;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background-color: $color-default-white;
+
+    transition: border-color $trans-default, background-color trans-default, color $trans-default;
+
+    @include vp-767 {
+      width: 26px;
+      height: 26px;
+    }
+
+    svg {
+      display: block;
+      width: 16px;
+      height: 16px;
+
+      @include vp-767 {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+
+  input:checked + span {
+    border: 1px solid $color-black;
+
+    color: $color-black;
+    cursor: default;
+    background-color: $color-default-white;
+  }
+
+  input:focus-visible + span {
+    box-shadow: 0 0 0 1px blue;
+  }
+}
+
+[data-color-theme="dark"] .toggle {
+  border-color: $color-default-white;
+
+  input + span {
+    color: $color-dark-gray;
+    border-color: $color-black;
+    background-color: $color-black;
+
+    svg {
+      color: $color-default-white;
+    }
+  }
+
+  input:checked + span {
+    border-color: $color-default-white;
+    color: $color-default-white;
+    background-color: $color-black;
+  }
+}
+
