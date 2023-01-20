@@ -1,0 +1,15 @@
+mixin picture-media(options={})
+  - const mediaString = options.media ? options.media : false
+  - const path = options.path ? options.path : "content"
+  - const image = options.image ? options.image : "low-quality-3x3"
+  - const image2 = options.image2 ? options.image2 : "low-quality-3x3"
+  - const format = options.format ? options.format: "jpg"
+  - const altText = options.alt ? options.alt : ""
+  - const loadingText = options.loading ? "lazy" : "auto"
+
+  picture(class!=attributes.class)
+    if mediaString
+      source(type='image/webp', media="(" + mediaString + ")" , srcset="img/" + path + "/" + image2 + ".webp" + " 1x, " + "img/" + path + "/" + image2 + "@2x.webp" + " 2x")
+      source(media="(" + mediaString + ")" , srcset="img/" + path + "/" + image2 + "." + format + " 1x, " + "img/" + path + "/" + image2 + "@2x." + format + " 2x")
+    source(type='image/webp', srcset="img/" + path + "/" + image + ".webp" + " 1x, " + "img/" + path + "/" + image + "@2x.webp" + " 2x")
+    img(src="img/" + path + "/" + image + "." + format, srcset= "img/" + path + "/" + image + "@2x." + format + " 2x", loading= loadingText, alt= altText)
