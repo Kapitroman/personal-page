@@ -85,3 +85,8 @@
   }
 }
 
+@include vp-767 {
+ .hidden .toggle {
+    display: none;
+  }
+}

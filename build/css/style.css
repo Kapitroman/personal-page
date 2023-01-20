@@ -1552,6 +1552,10 @@ h2.titles {
     height: 22px;
   }
 
+  .hidden .toggle {
+    display: none;
+  }
+
   .toggles-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
