@@ -47,32 +47,84 @@
     "ru": ["В основном работаю со следующими технологиями:", "и инструментами:"],
     "en": ["I mainly work with the following technologies:", "and tools:"]
   },
-  "projectLinks": {
+  "projectNames": {
     "ru": [
             "Тестовый проект &quot;Северяночка&quot;",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
             "Тестовый проект &quot;Poplar&quot;",
-            "Тренеровочный проект. Магазин &quot;Jewellery&quot;."
+            "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
+            "Тренеровочный проект. Лендинг &quot;Israel&quot;."
           ],
     "en": [
             "Test project &quot;Severyanochka&quot;",
             "Project &quot;Notab&quot;. Test task for PURRWEB",
             "Test project &quot;Poplar&quot;",
-            "Training project. Shop &quot;Jewellery&quot;"
+            "Training project. Shop &quot;Jewellery&quot;",
+            "Training project. Shop &quot;Israel&quot;"
+          ]
+  },
+  "linkLabels": {
+    "ru": [
+            "Ссылка",
+            "Ссылка",
+            "Ссылка",
+            "Ссылка",
+            "Ссылка"
+          ],
+    "en": [
+            "Link",
+            "Link",
+            "Link",
+            "Link",
+            "Link"
+          ]
+  },
+  "codeLabels": {
+    "ru": [
+            "Код",
+            "Код",
+            "Код",
+            "Код",
+            "Код"
+          ],
+    "en": [
+            "Code",
+            "Code",
+            "Code",
+            "Code",
+            "Code"
+          ]
+  },
+  "projectLinks": {
+    "ru": [
+            "Тестовый проект &quot;Северяночка&quot;.",
+            "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB.",
+            "Тестовый проект &quot;Poplar&quot;.",
+            "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
+            "Тренеровочный проект. Лендинг &quot;Israel&quot;."
+          ],
+    "en": [
+            "Test project &quot;Severyanochka&quot;.",
+            "Project &quot;Notab&quot;. Test task for PURRWEB.",
+            "Test project &quot;Poplar&quot;.",
+            "Training project. Shop &quot;Jewellery&quot;.",
+            "Training project. Shop &quot;Israel&quot;"
           ]
   },
   "projectDescription": {
     "ru": [
-            "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов",
-            "Лендинг. Адаптивная верстка,и JavaScript для компонентов",
-            "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов",
-            "Адаптивная верстка. Верстка и JS поддерживает EI 11."
+            "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
+            "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
+            "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
+            "Страницы интернет-магазина. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
+            "Лендинг. Адаптивная верстка. Верстка и JS поддерживает EI 11."
           ],
     "en": [
-            "Online-shop pages. Responsive layout, JavaScript for components",
-            "Landing page. Responsive layout, JavaScript for components",
-            "Site pages. Responsive layout, JavaScript for components",
-            "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11"
+            "Online-shop pages. Responsive layout, JavaScript for components.",
+            "Landing page. Responsive layout, JavaScript for components.",
+            "Site pages. Responsive layout, JavaScript for components.",
+            "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
+            "Landing page. Responsive layout, JavaScript for components. Layout and JS support EI 11."
           ]
   },
   "contactsSection": {

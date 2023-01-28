@@ -24,14 +24,6 @@ mixin intro()
               input.visually-hidden(type="radio" name="toggle-language" value="en" aria-label="английский" )
               span En
 
-      //-.intro__image
-        //-+picture("content", "i", "jpg", 945, 421, "Роман Капитонов")
-        picture
-          source(type="image/webp" media="(max-width: 767px)" srcset="img/content/i-mobile.webp 1x, img/content/i-mobile@2x.webp 2x")
-          source(type="image/webp" srcset="img/content/i.webp 1x, img/content/i@2x.webp 2x")
-          source(media="(max-width: 767px)" srcset="img/content/i-mobile.jpg 1x, img/photo-hare-desktop@2x.jpg 2x")
-          img(src="img/content/i.jpg" srcset="img/content/i@2x.jpg 2x" alt="фото Роман Капитонов")
-
       .intro__image
         +picture-media({
           media: "max-width: 767px",
@@ -40,6 +32,5 @@ mixin intro()
           image2: "i-mobile",
           format: "jpg",
           alt: "фото ",
-          loading: true
         })
 
