@@ -24,6 +24,7 @@
             "JavaScript. Профессиональная разработка веб-интерфейсов",
             "JavaScript. Архитектура клиентских приложений",
             "Node.js. Профессиональная разработка REST API",
+            "Анимация для фронтендеров",
             "Посмотреть сертификаты",
             "В 2000 по 2002 гг. прошел стажировку в Лиге А.",
             "Посмотреть рекомендацию",
@@ -37,6 +38,7 @@
             "JavaScript. Professional Development of Web Interfaces",
             "JavaScript. Architecture of Front-end Applications",
             "Node.js Professional REST API Development",
+            "Animation for front-end developers",
             "View certificates",
             "In 2000 to 2002 I trained in League A.",
             "See recommendation",
@@ -52,6 +54,7 @@
             "Тестовый проект &quot;Северяночка&quot;",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
             "Тестовый проект &quot;Poplar&quot;",
+            "&quot;Таинственный отпуск&quot;. Проект для защиты курса &quot;Анимация для фронтендера&quot;",
             "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
             "Тренеровочный проект. Лендинг &quot;Israel&quot;."
           ],
@@ -59,6 +62,7 @@
             "Test project &quot;Severyanochka&quot;",
             "Project &quot;Notab&quot;. Test task for PURRWEB",
             "Test project &quot;Poplar&quot;",
+            "&quot;Mysterious Vacation&quot;. Project for the defense of the course &quot;Animation for the front-end &quot;",
             "Training project. Shop &quot;Jewellery&quot;",
             "Training project. Shop &quot;Israel&quot;"
           ]
@@ -69,9 +73,11 @@
             "Ссылка",
             "Ссылка",
             "Ссылка",
+            "Ссылка",
             "Ссылка"
           ],
     "en": [
+            "Link",
             "Link",
             "Link",
             "Link",
@@ -85,9 +91,11 @@
             "Код",
             "Код",
             "Код",
+            "Код",
             "Код"
           ],
     "en": [
+            "Code",
             "Code",
             "Code",
             "Code",
@@ -100,6 +108,7 @@
             "Тестовый проект &quot;Северяночка&quot;.",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB.",
             "Тестовый проект &quot;Poplar&quot;.",
+            "Анимационный проект &quot;Таинственный отпуск&quot;",
             "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
             "Тренеровочный проект. Лендинг &quot;Israel&quot;."
           ],
@@ -107,6 +116,7 @@
             "Test project &quot;Severyanochka&quot;.",
             "Project &quot;Notab&quot;. Test task for PURRWEB.",
             "Test project &quot;Poplar&quot;.",
+            "Animation project &quot;Mysterious Vacation&quot;.",
             "Training project. Shop &quot;Jewellery&quot;.",
             "Training project. Shop &quot;Israel&quot;"
           ]
@@ -116,6 +126,7 @@
             "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
             "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
             "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
+            "Одностраничный лендинг с большим колличеством CSS, SVG, JS, и WebGL анимаций",
             "Страницы интернет-магазина. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
             "Лендинг. Адаптивная верстка. Верстка и JS поддерживает EI 11."
           ],
@@ -123,6 +134,7 @@
             "Online-shop pages. Responsive layout, JavaScript for components.",
             "Landing page. Responsive layout, JavaScript for components.",
             "Site pages. Responsive layout, JavaScript for components.",
+            "Pagelanding with a lot of CSS, SVG, JS, and WebGL animations",
             "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
             "Landing page. Responsive layout, JavaScript for components. Layout and JS support EI 11."
           ]

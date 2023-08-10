@@ -1645,7 +1645,7 @@ h2.titles {
 .portfolio__title {
   margin: 0;
   margin-bottom: 10px;
-  line-height: 32px;
+  line-height: 22px;
 }
 @media (max-width: 767px) {
   .portfolio__title {
