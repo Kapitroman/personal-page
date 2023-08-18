@@ -6,6 +6,7 @@ import {initBurgerMenu} from './modules/init-burger-menu';
 import {initChangeLanguage} from './modules/init-change-language';
 import {initDynamicAdaptive} from './modules/init-dynamic-adaptive';
 import {initChangeColorTheme} from './modules/init-change-color-theme';
+import {initTabs} from './modules/init-tabs';
 
 // ---------------------------------
 
@@ -27,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
     navigationChanger.init();
     initDynamicAdaptive();
     initBurgerMenu();
+    initTabs();
   });
 });
 

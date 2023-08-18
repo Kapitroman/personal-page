@@ -2,303 +2,466 @@ mixin portfolio()
   section.portfolio.section-navigation#portfolio
     .container
       h2.titles(data-lang-key="headersSection")
-      .portfolio__wrapper
-        .portfolio__group
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-002",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-002",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/severianochka/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/severianochka")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
 
-        .portfolio__group
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-001",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-001",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/notab/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/notab")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
+      .tabs.no-transition-global(data-tabs='parent', data-delay='300')
+        .tabs__controls(data-tabs='controls')
+          button.tabs__control.btn(type='button', data-tabs='control', data-lang-key="projectCategories")
+          button.tabs__control.btn(type='button', data-tabs='control', data-lang-key="projectCategories")
+          button.tabs__control.btn(type='button', data-tabs='control', data-lang-key="projectCategories")
+        .tabs__content(data-tabs='content')
+          .tabs__element(data-tabs='element')
 
-        .portfolio__group
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-003",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-003",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/poplar/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/poplar")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
+            .portfolio__wrapper
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-002",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-002",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/severianochka/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/severianochka")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
 
-        .portfolio__group <!-- bbbb-->
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-006",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-006",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/1248115-magic-vacation-1/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/1248115-magic-vacation-1")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                      path: "content/portfolio",
+                      image: "project-screen-mobile-001",
+                      format: "jpg",
+                      alt: "screen project",
+                      loading: true
+                    })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-001",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/notab/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/notab")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
 
-        .portfolio__group
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-005",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-005",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/Jellewery/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/Jellewery")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-003",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-003",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/poplar/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/poplar")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
 
-        .portfolio__group
-          .portfolio__group-images
-            .portfolio__smartphone-image
-              +picture-media({
-                path: "content",
-                image: "smartphone",
-                format: "png",
-                alt: "mockup smartphone",
-                loading: true
-              })
-              .portfolio__smartphone-screen.portfolio__scroll
-                +picture-media({
-                  path: "content/portfolio",
-                  image: "project-screen-mobile-004",
-                  format: "jpg",
-                  alt: "screen project",
-                  loading: true
-                })
-            .portfolio__laptop-image
-              +picture-media({
-                media: "max-width: 767px",
-                path: "content",
-                image: "laptop",
-                image2: "low-quality-3x3",
-                format: "png",
-                alt: "mockup laptop",
-                loading: true
-              })
-              .portfolio__laptop-screen.portfolio__scroll
-                +picture-media({
-                  media: "max-width: 767px",
-                  path: "content/portfolio",
-                  image: "project-screen-laptop-004",
-                  image2: "low-quality-3x3",
-                  format: "jpg",
-                  alt: "screen laptop",
-                  loading: true
-                })
-          .portfolio__group-info
-            .portfolio__group-links
-              a.portfolio__link(href="https://kapitroman.github.io/Israel/")
-                +icon("icon-hyperlink", 18, 18)
-                span(data-lang-key="linkLabels")
-              a.portfolio__link(href="https://github.com/Kapitroman/Israel")
-                +icon("icon-github", 18, 18)
-                span(data-lang-key="codeLabels")
-            .portfolio__group-text
-              p.portfolio__title(data-lang-key="projectNames")
-              p.portfolio__description(data-lang-key="projectDescription")
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-006",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll.portfolio__scroll--long
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-006",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/1248115-magic-vacation-1/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/1248115-magic-vacation-1")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
+
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-005",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-005",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/Jellewery/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/Jellewery")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
+
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-004",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-004",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/Israel/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/Israel")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
+
+          .tabs__element(data-tabs='element')
+            .portfolio__wrapper
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-008",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-008",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link(href="https://kapitroman.github.io/1248115-keksobooking-20/")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/1248115-keksobooking-20")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
+
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-009",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-009",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link.none(href="")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/1248115-big-trip-12")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")
+
+          .tabs__element(data-tabs='element')
+            .portfolio__wrapper
+              .portfolio__group
+                .portfolio__group-images
+                  .portfolio__smartphone-image
+                    +picture-media({
+                      path: "content",
+                      image: "smartphone",
+                      format: "png",
+                      alt: "mockup smartphone",
+                      loading: true
+                    })
+                    .portfolio__smartphone-screen.portfolio__scroll
+                      +picture-media({
+                        path: "content/portfolio",
+                        image: "project-screen-mobile-007",
+                        format: "jpg",
+                        alt: "screen project",
+                        loading: true
+                      })
+                  .portfolio__laptop-image
+                    +picture-media({
+                      media: "max-width: 767px",
+                      path: "content",
+                      image: "laptop",
+                      image2: "low-quality-3x3",
+                      format: "png",
+                      alt: "mockup laptop",
+                      loading: true
+                    })
+                    .portfolio__laptop-screen.portfolio__scroll
+                      +picture-media({
+                        media: "max-width: 767px",
+                        path: "content/portfolio",
+                        image: "project-screen-laptop-007",
+                        image2: "low-quality-3x3",
+                        format: "jpg",
+                        alt: "screen laptop",
+                        loading: true
+                      })
+                .portfolio__group-info
+                  .portfolio__group-links
+                    a.portfolio__link.none(href="")
+                      +icon("icon-hyperlink", 18, 18)
+                      span(data-lang-key="linkLabels")
+                    a.portfolio__link(href="https://github.com/Kapitroman/1248115-typoteka-3")
+                      +icon("icon-github", 18, 18)
+                      span(data-lang-key="codeLabels")
+                  .portfolio__group-text
+                    p.portfolio__title(data-lang-key="projectNames")
+                    p.portfolio__description(data-lang-key="projectDescription")

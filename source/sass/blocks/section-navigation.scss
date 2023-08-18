@@ -14,6 +14,6 @@
 
 [data-color-theme="dark"] .section-navigation {
   &:nth-of-type(2n) {
-    background-color: #303030;
+    background-color: $color-night-rider;
   }
 }

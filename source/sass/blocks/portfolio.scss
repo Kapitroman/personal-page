@@ -201,6 +201,10 @@
   }
 }
 
+.portfolio__link.none {
+  display: none;
+}
+
 .portfolio__link + .portfolio__link {
   margin-top: 10px;
 
@@ -238,7 +242,15 @@
     line-height: 19px;
   }
 }
-
+/*
+.desktop {
+  .portfolio__laptop-image {
+    @include vp-767 {
+      display: block;
+    }
+  }
+}
+*/
 [data-color-theme="dark"] .portfolio {
   .portfolio__link {
     color: $color-default-white;

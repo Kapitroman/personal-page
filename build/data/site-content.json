@@ -49,14 +49,21 @@
     "ru": ["В основном работаю со следующими технологиями:", "и инструментами:"],
     "en": ["I mainly work with the following technologies:", "and tools:"]
   },
+  "projectCategories": {
+    "ru": ["Верстка", "WEB приложения", "Бэкенд"],
+    "en": ["Layout", "WEB Applications", "Back-End"]
+  },
   "projectNames": {
     "ru": [
             "Тестовый проект &quot;Северяночка&quot;",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
             "Тестовый проект &quot;Poplar&quot;",
-            "&quot;Таинственный отпуск&quot;. Проект для защиты курса &quot;Анимация для фронтендера&quot;",
+            "&quot;Таинственный отпуск&quot;. Проект для защиты по курсу &quot;Анимация для фронтендера&quot;",
             "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
-            "Тренеровочный проект. Лендинг &quot;Israel&quot;."
+            "Тренеровочный проект. Лендинг &quot;Israel&quot;.",
+            "&quot;Кексобукинг.&quot; Проект для защиты по курсу &quot;JavaScript. Профессиональная разработка веб-интерфейсов.&quot;",
+            "&quot;Big Trip.&quot; Проект для защиты по курсу &quot;JavaScript. Архитектура клиентских приложений.&quot;",
+            "&quot;Типотека.&quot; Проект для защиты по курсу &quot;Node.js. Профессиональная разработка REST API.&quot;"
           ],
     "en": [
             "Test project &quot;Severyanochka&quot;",
@@ -64,7 +71,10 @@
             "Test project &quot;Poplar&quot;",
             "&quot;Mysterious Vacation&quot;. Project for the defense of the course &quot;Animation for the front-end &quot;",
             "Training project. Shop &quot;Jewellery&quot;",
-            "Training project. Shop &quot;Israel&quot;"
+            "Training project. Shop &quot;Israel&quot;",
+            "&quot;Keksobooking.&quot; Project for the defense of the course &quot;JavaScript. Professional Development of Web Interfaces&quot;",
+            "&quot;Big Trip.&quot; Project for the defense of the course &quot;JavaScript. Architecture of Front-end Applications&quot;",
+            "&quot;Typoteka.&quot; Project for the defense of the course &quot;Node.js Professional REST API Development&quot;"
           ]
   },
   "linkLabels": {
@@ -74,7 +84,10 @@
             "Ссылка",
             "Ссылка",
             "Ссылка",
-            "Ссылка"
+            "Ссылка",
+            "Ссылка",
+            "",
+            ""
           ],
     "en": [
             "Link",
@@ -82,11 +95,17 @@
             "Link",
             "Link",
             "Link",
-            "Link"
+            "Link",
+            "Link",
+            "",
+            ""
           ]
   },
   "codeLabels": {
     "ru": [
+            "Код",
+            "Код",
+            "Код",
             "Код",
             "Код",
             "Код",
@@ -100,25 +119,10 @@
             "Code",
             "Code",
             "Code",
+            "Code",
+            "Code",
+            "Code",
             "Code"
-          ]
-  },
-  "projectLinks": {
-    "ru": [
-            "Тестовый проект &quot;Северяночка&quot;.",
-            "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB.",
-            "Тестовый проект &quot;Poplar&quot;.",
-            "Анимационный проект &quot;Таинственный отпуск&quot;",
-            "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
-            "Тренеровочный проект. Лендинг &quot;Israel&quot;."
-          ],
-    "en": [
-            "Test project &quot;Severyanochka&quot;.",
-            "Project &quot;Notab&quot;. Test task for PURRWEB.",
-            "Test project &quot;Poplar&quot;.",
-            "Animation project &quot;Mysterious Vacation&quot;.",
-            "Training project. Shop &quot;Jewellery&quot;.",
-            "Training project. Shop &quot;Israel&quot;"
           ]
   },
   "projectDescription": {
@@ -126,9 +130,12 @@
             "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
             "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
             "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
-            "Одностраничный лендинг с большим колличеством CSS, SVG, JS, и WebGL анимаций",
+            "Одностраничный лендинг c большим колличеством CSS, SVG, JS, и WebGL анимаций",
             "Страницы интернет-магазина. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
-            "Лендинг. Адаптивная верстка. Верстка и JS поддерживает EI 11."
+            "Лендинг. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
+            "Сайт-приложение. Взаимодействие с DOM, реализация WEB-API связанных с интерфейсом, валидация формы и др.",
+            "SPA. Реализация паттерна Model-Presenter-View, двухсторонее всязывание данных, ООП, паттерны проектирования, WEB-API и др",
+            "Личный блог. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, тестирование, аутентификация, авторизация и другое"
           ],
     "en": [
             "Online-shop pages. Responsive layout, JavaScript for components.",
@@ -136,7 +143,10 @@
             "Site pages. Responsive layout, JavaScript for components.",
             "Pagelanding with a lot of CSS, SVG, JS, and WebGL animations",
             "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
-            "Landing page. Responsive layout, JavaScript for components. Layout and JS support EI 11."
+            "Landing page. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
+            "Application site. Interaction with DOM, implementation of WEB-APIs related to the interface, form validation, etc.",
+            "SPA. Implementing the Model-Presenter-View Pattern, Data-binding, Object-oriented programming, Design Patterns, client WEB-API and more",
+            "Personal blog. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, testing, authentication, authorization and more"
           ]
   },
   "contactsSection": {
