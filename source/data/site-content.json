@@ -55,6 +55,7 @@
   },
   "projectNames": {
     "ru": [
+            "Проект &quot;Xyberpaws&quot;.",
             "Тестовый проект &quot;Северяночка&quot;",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
             "Тестовый проект &quot;Poplar&quot;",
@@ -67,6 +68,7 @@
             "&quot;Типотека.&quot; Проект для защиты по курсу &quot;Node.js. Профессиональная разработка REST API.&quot;"
           ],
     "en": [
+            "Project &quot;Xyberpaws&quot;.",
             "Test project &quot;Severyanochka&quot;",
             "Project &quot;Notab&quot;. Test task for PURRWEB",
             "Test project &quot;Poplar&quot;",
@@ -89,10 +91,12 @@
             "Ссылка",
             "Ссылка",
             "Ссылка",
+            "Ссылка",
             "",
             ""
           ],
     "en": [
+            "Link",
             "Link",
             "Link",
             "Link",
@@ -116,9 +120,11 @@
             "Код",
             "Код",
             "Код",
+            "Код",
             "Код"
           ],
     "en": [
+            "Code",
             "Code",
             "Code",
             "Code",
@@ -133,6 +139,7 @@
   },
   "projectDescription": {
     "ru": [
+            "Сайт с адаптивной версткой и javascript анимацией.",
             "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
             "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
             "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
@@ -145,6 +152,7 @@
             "Личный блог. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, тестирование, аутентификация, авторизация и другое"
           ],
     "en": [
+            "Site with adaptive layout and javascript animations.",
             "Online-shop pages. Responsive layout, JavaScript for components.",
             "Landing page. Responsive layout, JavaScript for components.",
             "Site pages. Responsive layout, JavaScript for components.",
