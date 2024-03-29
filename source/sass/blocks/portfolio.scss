@@ -58,6 +58,16 @@
   }
 }
 
+.portfolio__scroll--horizontal {
+  img {
+    object-position: left center;
+  }
+
+  &:hover img {
+    object-position: right center;
+  }
+}
+
 .portfolio__laptop-screen {
   position: absolute;
   top: 6.3%;

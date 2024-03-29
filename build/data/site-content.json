@@ -56,6 +56,8 @@
   "projectNames": {
     "ru": [
             "Проект &quot;Xyberpaws&quot;.",
+            "Проект &quot;MakeMeLook&quot;.",
+            "Коммерческий проект &quot;ApiSoft&quot;.",
             "Тестовый проект &quot;Северяночка&quot;",
             "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
             "Тестовый проект &quot;Poplar&quot;",
@@ -69,6 +71,8 @@
           ],
     "en": [
             "Project &quot;Xyberpaws&quot;.",
+            "Project &quot;MakeMeLook&quot;.",
+            "Commercial project &quot;ApiSoft&quot;.",
             "Test project &quot;Severyanochka&quot;",
             "Project &quot;Notab&quot;. Test task for PURRWEB",
             "Test project &quot;Poplar&quot;",
@@ -92,10 +96,14 @@
             "Ссылка",
             "Ссылка",
             "Ссылка",
+            "Ссылка",
+            "Ссылка",
             "",
             ""
           ],
     "en": [
+            "Link",
+            "Link",
             "Link",
             "Link",
             "Link",
@@ -121,9 +129,13 @@
             "Код",
             "Код",
             "Код",
+            "Код",
+            "Код",
             "Код"
           ],
     "en": [
+            "Code",
+            "Code",
             "Code",
             "Code",
             "Code",
@@ -140,6 +152,8 @@
   "projectDescription": {
     "ru": [
             "Сайт с адаптивной версткой и javascript анимацией.",
+            "Лендинг с адаптивной версткой и javascript. Имитация горизонтального скролла и адаптивность контента по высоте экрана на десктопном экране.",
+            "Сайт по оказанию IT - услуг. Адаптивная верстка, javascript анимация.",
             "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
             "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
             "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
@@ -153,6 +167,8 @@
           ],
     "en": [
             "Site with adaptive layout and javascript animations.",
+            "Landing page. Responsive layout, JavaScript for components. Simulation of horizontal scrolling and adaptability of content according to screen height on a desktop screen.",
+            "Website for the provision of IT services. Adaptive layout and javascript animations.",
             "Online-shop pages. Responsive layout, JavaScript for components.",
             "Landing page. Responsive layout, JavaScript for components.",
             "Site pages. Responsive layout, JavaScript for components.",
