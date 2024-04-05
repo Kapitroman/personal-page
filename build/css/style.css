@@ -1416,13 +1416,18 @@ h2.titles {
 }
 @media (max-width: 767px) {
   .skills__list {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    /*
+    justify-content: center;
+
     width: calc(100% + 57px);
     margin-top: -60px;
     margin-left: -29px;
     margin-right: -29px;
+    */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
   }
 }
 .skills__list + .skills__text {
@@ -1433,10 +1438,13 @@ h2.titles {
 }
 @media (max-width: 767px) {
   .skills__item {
+    /*
     min-width: 143px;
     margin-top: 60px;
     margin-left: 29px;
     margin-right: 28px;
+    */
+    min-width: auto;
   }
 }
 .skills__icon {
@@ -1454,6 +1462,11 @@ h2.titles {
   width: 15px;
   height: 13px;
   color: #e5e5e5;
+}
+@media (max-width: 767px) {
+  .skills__star {
+    display: none;
+  }
 }
 .skills__star--active {
   color: #1f2023;
