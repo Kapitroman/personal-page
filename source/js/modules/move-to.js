@@ -4,8 +4,13 @@ const moveTo = () => {
      * Defaults
      * @type {object}
      */
+
+    // добавлено вычесление высоты header
+    const heightHeader = document.querySelector('.header').clientHeight;
+    //console.log(heightHeader);
+
     const defaults = {
-      tolerance: 0,
+      tolerance: heightHeader,
       duration: 800,
       easing: 'easeOutQuart',
       container: window,

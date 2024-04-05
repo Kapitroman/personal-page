@@ -7,7 +7,7 @@
     min-height: initial;
   }
 
-  @include vp-374 {
+  @include vp-366 {
     padding: 25px 0 20px 0;
   }
 
@@ -52,7 +52,7 @@
       }
     }
 
-    @include vp-374 {
+    @include vp-366 {
       margin-bottom: 30px;
 
       li + li {
@@ -215,7 +215,7 @@
     }
   }
 
-  @include vp-374 {
+  @include vp-366 {
     .navigation-changer__wrapper-toggle {
       margin-bottom: 30px;
     }

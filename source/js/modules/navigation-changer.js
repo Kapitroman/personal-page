@@ -3,7 +3,7 @@ export class NavigationChanger {
     this._scrollDuration = 1000;
     this._currentIndex = 0;
     this._newCurrentIndex = null;
-    this._blockShift = 50;
+    this._blockShift = 100;//50
     this._linkElements = document.querySelectorAll('[data-navigation-link]');
 
     this._moveTo = new window.MoveTo({
