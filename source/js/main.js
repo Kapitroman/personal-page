@@ -1,12 +1,13 @@
-import {iosVhFix} from './utils/ios-vh-fix';
-import {ScrollLock} from './utils/scroll-lock';//
+import { iosVhFix } from './utils/ios-vh-fix';
+import { ScrollLock } from './utils/scroll-lock';//
 import './modules/move-to';
-import {NavigationChanger} from './modules/navigation-changer';
-import {initBurgerMenu} from './modules/init-burger-menu';
-import {initChangeLanguage} from './modules/init-change-language';
-import {initDynamicAdaptive} from './modules/init-dynamic-adaptive';
-import {initChangeColorTheme} from './modules/init-change-color-theme';
-import {initTabs} from './modules/init-tabs';
+import { NavigationChanger } from './modules/navigation-changer';
+import { initBurgerMenu } from './modules/init-burger-menu';
+import { initChangeLanguage } from './modules/init-change-language';
+import { initDynamicAdaptive } from './modules/init-dynamic-adaptive';
+import { initChangeColorTheme } from './modules/init-change-color-theme';
+import { initTabs } from './modules/init-tabs';
+import { annotateTextBlocks } from './modules/annotateTextBlocks';
 
 // ---------------------------------
 
@@ -29,6 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
     initDynamicAdaptive();
     initBurgerMenu();
     initTabs();
+    annotateTextBlocks();
   });
 });
 
