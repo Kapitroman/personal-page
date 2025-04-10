@@ -1,94 +1,54 @@
 .intro {
-  &__wrap {
+  .container2 {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    gap: 40px;
 
-    min-height: 106px;
-    margin-bottom: 30px;
     padding-top: 80px;
-
-    @include vp-767 {
-      min-height: 66px;
-      padding-top: 97px;
-    }
-
-    @include vp-767 {
-      padding-top: 85px;
-    }
   }
 
-  h1 {
-    width: 32%;
-    margin-bottom: -12px;
-
-    text-align: left;
-
-    @include vp-1023 {
-      margin-bottom: -7px;
-    }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
 
     @include vp-767 {
       display: none;
     }
   }
 
-  p {
-    width: 30%;
-    margin: 0;
-    margin-bottom: -3px;
-
-    @include vp-767 {
-      width: 100%;
-      max-width: 320px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 0;
-
-      text-align: center;
-    }
+  h1 {
+    text-align: left;
+    margin-right: auto;
   }
 
-  p span {
-    display: block;
+  &__text {
+    text-align: left;
+    margin-right: auto;
   }
 
   .toggles-container {
-    width: 32%;
+    margin-top: auto;
+  }
 
-    .toggle {
-      margin-left: auto;
-    }
+  .toggle {
+    margin-right: auto;
   }
 
   &__image {
-    position: relative;
+    width: 40%;
+    aspect-ratio: 3 / 4;
+
+    order: -1;
 
     @include vp-767 {
-      max-width: 422px;
-      margin: 0 auto;
+      width: 100%;
+      aspect-ratio: 9 / 6;
     }
 
-    &::before {
-      content: "";
-      display: table;
+    img {
+      width: 100%;
+      height: 100%;
 
-      padding-bottom: 44.55%;
-
-      @include vp-767 {
-        padding-bottom: 66.35%;
-      }
+      object-fit: cover;
     }
-  }
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
   }
 }

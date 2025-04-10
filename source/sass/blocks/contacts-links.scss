@@ -1,0 +1,41 @@
+.contacts-links {
+  display: inline-flex;
+
+  margin: 0 auto;
+  padding: 0;
+
+  list-style: none;
+
+  &__link {
+    display: block;
+
+    transition: opacity $trans-default;
+
+    a {
+      display: flex;
+    }
+
+    svg {
+      color: $color-black;
+    }
+
+    @media (hover: hover),
+    screen and (min-width: 0\0) {
+
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__link:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+[data-color-theme="dark"] .contacts-links {
+  svg {
+    color: $color-default-white;
+  }
+}

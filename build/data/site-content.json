@@ -1,188 +1,258 @@
 {
   "navigationLinks": {
-    "ru": ["Главная", "Обо мне", "Навыки", "Портфолио", "Контакты"],
-    "en": ["Home", "About me", "Skills", "Portfolio", "Contacts"]
+    "ru": [
+      "Главная",
+      "Обо мне",
+      "Навыки",
+      "Портфолио",
+      "Контакты"
+    ],
+    "en": [
+      "Home",
+      "About me",
+      "Skills",
+      "Portfolio",
+      "Contacts"
+    ]
   },
   "headerTitle": {
-    "ru": ["Роман Капитонов"],
-    "en": ["Roman Kapitonov"]
+    "ru": [
+      "Роман Капитонов",
+      "Веб-разработчик"
+    ],
+    "en": [
+      "Roman Kapitonov",
+      "Web-development"
+    ]
   },
   "headersSection": {
-    "ru": ["Роман Капитонов", "Обо мне", "Навыки", "Портфолио", "Контакты"],
-    "en": ["Roman Kapitonov", "About me", "Skills", "Portfolio", "Contacts"]
+    "ru": [
+      "Роман Капитонов",
+      "Обо мне",
+      "Навыки",
+      "Портфолио",
+      "Контакты"
+    ],
+    "en": [
+      "Roman Kapitonov",
+      "About me",
+      "Skills",
+      "Portfolio",
+      "Contacts"
+    ]
   },
   "introSection": {
-    "ru": ["Верстальщик | Веб&nbsp;-&nbsp;разработчик <span>48 лет, Москва</span>"],
-    "en": ["Web developer | Layout&nbsp;master <span>48 years old, Moscow</span>"]
+    "ru": [
+      "Верстальщик | Веб&nbsp;-&nbsp;разработчик"
+    ],
+    "en": [
+      "Web developer | Layout&nbsp;master"
+    ]
   },
   "aboutSection": {
     "ru": [
-            "Привет, я Роман — верстальщик и веб-разработчик из Москвы. Интересуюсь веб технологиями и всем, что с этим связано.",
-            "В 2000 г. окончил с успешной защитой курсы HTMLAcademy по следующим направлениям:",
-            "HTML и CSS. Профессиональная вёрстка сайтов",
-            "HTML и CSS. Адаптивная вёрстка и автоматизация",
-            "JavaScript. Профессиональная разработка веб-интерфейсов",
-            "JavaScript. Архитектура клиентских приложений",
-            "Node.js. Профессиональная разработка REST API",
-            "Анимация для фронтендеров",
-            "Посмотреть сертификаты",
-            "В 2000 по 2002 гг. прошел стажировку в Лиге А.",
-            "Посмотреть рекомендацию",
-            "С 2002 г занимаюсь фрилансом по верстке и веб-разработке. Готов реализовать отличные проекты с замечательными людьми."
-          ],
+      "Привет, я Роман — верстальщик и веб-разработчик из Москвы. Интересуюсь веб технологиями и всем, что с этим связано.",
+      "C 2000 г. окончивал с успешной защитой курсы HTMLAcademy по следующим направлениям:",
+      "HTML и CSS. Профессиональная вёрстка сайтов",
+      "HTML и CSS. Адаптивная вёрстка и автоматизация",
+      "JavaScript. Профессиональная разработка веб-интерфейсов",
+      "JavaScript. Архитектура клиентских приложений",
+      "Node.js. Профессиональная разработка REST API",
+      "Анимация для фронтендеров",
+      "Посмотреть сертификаты",
+      "В 2000 по 2002 гг. прошел стажировку в Лиге А.",
+      "Посмотреть рекомендацию",
+      "С 2002 г занимаюсь фрилансом по верстке и веб-разработке. Готов реализовать отличные проекты с замечательными людьми."
+    ],
     "en": [
-            "Hello, I'm Roman — layout designer and web developer from Moscow. I am interested in web technologies and everything connected with it.",
-            "In 2000, I successfully completed HTMLAcademy courses in the following areas:",
-            "HTML and CSS. Professional Website Coding",
-            "HTML and CSS. Responsive Layout and Automation",
-            "JavaScript. Professional Development of Web Interfaces",
-            "JavaScript. Architecture of Front-end Applications",
-            "Node.js Professional REST API Development",
-            "Animation for front-end developers",
-            "View certificates",
-            "In 2000 to 2002 I trained in League A.",
-            "See recommendation",
-            "Since 2002, I have been freelancing in layout and web development. Ready to implement excellent projects with wonderful people."
-          ]
+      "Hello, I'm Roman — layout designer and web developer from Moscow. I am interested in web technologies and everything connected with it.",
+      "Since 2000, I have successfully completed HTMLAcademy courses in the following areas:",
+      "HTML and CSS. Professional Website Coding",
+      "HTML and CSS. Responsive Layout and Automation",
+      "JavaScript. Professional Development of Web Interfaces",
+      "JavaScript. Architecture of Front-end Applications",
+      "Node.js Professional REST API Development",
+      "Animation for front-end developers",
+      "View certificates",
+      "In 2000 to 2002 I trained in League A.",
+      "See recommendation",
+      "Since 2002, I have been freelancing in layout and web development. Ready to implement excellent projects with wonderful people."
+    ]
   },
   "skillsSection": {
-    "ru": ["В основном работаю со следующими технологиями:", "и инструментами:"],
-    "en": ["I mainly work with the following technologies:", "and tools:"]
+    "ru": [
+      "В основном работаю со следующими технологиями:",
+      "и инструментами:"
+    ],
+    "en": [
+      "I mainly work with the following technologies:",
+      "and tools:"
+    ]
   },
   "projectCategories": {
-    "ru": ["Верстка", "WEB приложения", "Бэкенд"],
-    "en": ["Layout", "WEB Applications", "Back-End"]
+    "ru": [
+      "Верстка",
+      "WEB приложения",
+      "Бэкенд"
+    ],
+    "en": [
+      "Layout",
+      "WEB Applications",
+      "Back-End"
+    ]
   },
   "projectNames": {
     "ru": [
-            "Проект &quot;Xyberpaws&quot;.",
-            "Проект &quot;MakeMeLook&quot;.",
-            "Коммерческий проект &quot;ApiSoft&quot;.",
-            "Тестовый проект &quot;Северяночка&quot;",
-            "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
-            "Тестовый проект &quot;Poplar&quot;",
-            "&quot;Таинственный отпуск&quot;. Проект для защиты по курсу &quot;Анимация для фронтендера&quot;",
-            "StockSFC — лендинг для NFT биржи футбольных карточек.",
-            "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
-            "Тренеровочный проект. Лендинг &quot;Israel&quot;.",
-            "&quot;Кексобукинг.&quot; Проект для защиты по курсу &quot;JavaScript. Профессиональная разработка веб-интерфейсов.&quot;",
-            "&quot;Big Trip.&quot; Проект для защиты по курсу &quot;JavaScript. Архитектура клиентских приложений.&quot;",
-            "&quot;Типотека.&quot; Проект для защиты по курсу &quot;Node.js. Профессиональная разработка REST API.&quot;"
-          ],
+      "Проект &quot;Xyberpaws&quot;.",
+      "Проект &quot;MakeMeLook&quot;.",
+      "Коммерческий проект &quot;ApiSoft&quot;.",
+      "Коммерческий проект &quot;Go-Tver&quot;.",
+      "Коммерческий проект &quot;Адвокатское бюро&quot;.",
+      "Коммерческий проект &quot;InPocket&quot;.",
+      "Тестовый проект &quot;Северяночка&quot;",
+      "Проект &quot;Notab&quot;. Тестовое задание для компании PURRWEB",
+      "Тестовый проект &quot;Poplar&quot;",
+      "&quot;Таинственный отпуск&quot;. Проект для защиты по курсу &quot;Анимация для фронтендера&quot;",
+      "StockSFC — лендинг для NFT биржи футбольных карточек.",
+      "Тренеровочный проект. Магазин &quot;Jewellery&quot;.",
+      "&quot;Кексобукинг.&quot; Проект для защиты по курсу &quot;JavaScript. Профессиональная разработка веб-интерфейсов.&quot;",
+      "&quot;Big Trip.&quot; Проект для защиты по курсу &quot;JavaScript. Архитектура клиентских приложений.&quot;",
+      "&quot;Типотека.&quot; Проект для защиты по курсу &quot;Node.js. Профессиональная разработка REST API.&quot;"
+    ],
     "en": [
-            "Project &quot;Xyberpaws&quot;.",
-            "Project &quot;MakeMeLook&quot;.",
-            "Commercial project &quot;ApiSoft&quot;.",
-            "Test project &quot;Severyanochka&quot;",
-            "Project &quot;Notab&quot;. Test task for PURRWEB",
-            "Test project &quot;Poplar&quot;",
-            "&quot;Mysterious Vacation&quot;. Project for the defense of the course &quot;Animation for the front-end &quot;",
-            "StockSFC - NFT lending to the football card exchange.",
-            "Training project. Shop &quot;Jewellery&quot;",
-            "Training project. Shop &quot;Israel&quot;",
-            "&quot;Keksobooking.&quot; Project for the defense of the course &quot;JavaScript. Professional Development of Web Interfaces&quot;",
-            "&quot;Big Trip.&quot; Project for the defense of the course &quot;JavaScript. Architecture of Front-end Applications&quot;",
-            "&quot;Typoteka.&quot; Project for the defense of the course &quot;Node.js Professional REST API Development&quot;"
-          ]
+      "Project &quot;Xyberpaws&quot;.",
+      "Project &quot;MakeMeLook&quot;.",
+      "Commercial project &quot;ApiSoft&quot;.",
+      "Commercial project &quot;Go-Tver&quot;.",
+      "Commercial project &quot;Law Office&quot;.",
+      "Commercial project &quot;InPocket&quot;.",
+      "Test project &quot;Severyanochka&quot;",
+      "Project &quot;Notab&quot;. Test task for PURRWEB",
+      "Test project &quot;Poplar&quot;",
+      "&quot;Mysterious Vacation&quot;. Project for the defense of the course &quot;Animation for the front-end &quot;",
+      "StockSFC - NFT lending to the football card exchange.",
+      "Training project. Shop &quot;Jewellery&quot;",
+      "&quot;Keksobooking.&quot; Project for the defense of the course &quot;JavaScript. Professional Development of Web Interfaces&quot;",
+      "&quot;Big Trip.&quot; Project for the defense of the course &quot;JavaScript. Architecture of Front-end Applications&quot;",
+      "&quot;Typoteka.&quot; Project for the defense of the course &quot;Node.js Professional REST API Development&quot;"
+    ]
   },
   "linkLabels": {
     "ru": [
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "Ссылка",
-            "",
-            ""
-          ],
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "Ссылка",
+      "",
+      ""
+    ],
     "en": [
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "Link",
-            "",
-            ""
-          ]
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "Link",
+      "",
+      ""
+    ]
   },
   "codeLabels": {
     "ru": [
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код",
-            "Код"
-          ],
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код",
+      "Код"
+    ],
     "en": [
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code",
-            "Code"
-          ]
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code",
+      "Code"
+    ]
   },
   "projectDescription": {
     "ru": [
-            "Сайт с адаптивной версткой и javascript анимацией.",
-            "Лендинг с адаптивной версткой и javascript. Имитация горизонтального скролла и адаптивность контента по высоте экрана на десктопном экране.",
-            "Сайт по оказанию IT - услуг. Адаптивная верстка, javascript анимация.",
-            "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
-            "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
-            "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
-            "Одностраничный лендинг c большим колличеством CSS, SVG, JS, и WebGL анимаций",
-            "Акцент верстки на тени и градиенты.",
-            "Страницы интернет-магазина. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
-            "Лендинг. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
-            "Сайт-приложение. Взаимодействие с DOM, реализация WEB-API связанных с интерфейсом, валидация формы и др.",
-            "SPA. Реализация паттерна Model-Presenter-View, двухсторонее всязывание данных, ООП, паттерны проектирования, WEB-API и др",
-            "Личный блог. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, тестирование, аутентификация, авторизация и другое"
-          ],
+      "Сайт с адаптивной версткой и javascript анимацией.",
+      "Лендинг с адаптивной версткой и javascript. Имитация горизонтального скролла и адаптивность контента по высоте экрана на десктопном экране.",
+      "Сайт по оказанию IT - услуг. Адаптивная верстка, javascript анимация.",
+      "Сайт путеводитель то Тверской области. Адаптивная верстка, анимация.",
+      "Сайт адвокатского бюро. Адаптивная верстка, анимация.",
+      "Лендинг. Адаптивная верстка, анимация.",
+      "Страницы интернет-магазина. Адаптивная верстка, JavaScript для компонентов.",
+      "Лендинг. Адаптивная верстка,и JavaScript для компонентов.",
+      "Многостраничный сайт. Адаптивная верстка, JavaScript для компонентов.",
+      "Одностраничный лендинг c большим колличеством CSS, SVG, JS, и WebGL анимаций",
+      "Акцент верстки на тени и градиенты.",
+      "Страницы интернет-магазина. Адаптивная верстка. Верстка и JS поддерживает EI 11.",
+      "Сайт-приложение. Взаимодействие с DOM, реализация WEB-API связанных с интерфейсом, валидация формы и др.",
+      "SPA. Реализация паттерна Model-Presenter-View, двухсторонее всязывание данных, ООП, паттерны проектирования, WEB-API и др",
+      "Личный блог. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, тестирование, аутентификация, авторизация и другое"
+    ],
     "en": [
-            "Site with adaptive layout and javascript animations.",
-            "Landing page. Responsive layout, JavaScript for components. Simulation of horizontal scrolling and adaptability of content according to screen height on a desktop screen.",
-            "Website for the provision of IT services. Adaptive layout and javascript animations.",
-            "Online-shop pages. Responsive layout, JavaScript for components.",
-            "Landing page. Responsive layout, JavaScript for components.",
-            "Site pages. Responsive layout, JavaScript for components.",
-            "Pagelanding with a lot of CSS, SVG, JS, and WebGL animations",
-            "The layout emphasis on shadows and gradients.",
-            "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
-            "Landing page. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
-            "Application site. Interaction with DOM, implementation of WEB-APIs related to the interface, form validation, etc.",
-            "SPA. Implementing the Model-Presenter-View Pattern, Data-binding, Object-oriented programming, Design Patterns, client WEB-API and more",
-            "Personal blog. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, testing, authentication, authorization and more"
-          ]
+      "Site with adaptive layout and javascript animations.",
+      "Landing page. Responsive layout, JavaScript for components. Simulation of horizontal scrolling and adaptability of content according to screen height on a desktop screen.",
+      "Website for the provision of IT services. Adaptive layout and javascript animations.",
+      "Tver Region guide site. Adaptive layout, animation.",
+      "Website of a law firm. Adaptive layout, animation.",
+      "Landing page. Responsive layout, animation.",
+      "Online-shop pages. Responsive layout, JavaScript for components.",
+      "Landing page. Responsive layout, JavaScript for components.",
+      "Site pages. Responsive layout, JavaScript for components.",
+      "Pagelanding with a lot of CSS, SVG, JS, and WebGL animations",
+      "The layout emphasis on shadows and gradients.",
+      "Site pages. Responsive layout, JavaScript for components. Layout and JS support EI 11.",
+      "Application site. Interaction with DOM, implementation of WEB-APIs related to the interface, form validation, etc.",
+      "SPA. Implementing the Model-Presenter-View Pattern, Data-binding, Object-oriented programming, Design Patterns, client WEB-API and more",
+      "Personal blog. Node.js/Express, REST API, PostgreSQL, Sequelize, WebSocket, testing, authentication, authorization and more"
+    ]
   },
   "contactsSection": {
-    "ru": ["Вы можете написать e-mail:", "или связаться по другим каналам:"],
-    "en": ["You can write an e-mail:", "or contact through other channels"]
+    "ru": [
+      "Вы можете написать e-mail:",
+      "или связаться по другим каналам:"
+    ],
+    "en": [
+      "You can write an e-mail:",
+      "or contact through other channels"
+    ]
   }
 }

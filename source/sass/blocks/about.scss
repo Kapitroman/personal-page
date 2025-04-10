@@ -1,13 +1,13 @@
 .about {
   &__wrap-text {
-    max-width: 668px;
-    width: 100%;
-    margin: 0 auto;
+    // max-width: 668px;
+    // width: 100%;
+    // margin: 0 auto;
 
     text-align: left;
 
     @include vp-767 {
-      max-width: 580px;
+      // max-width: 580px;
     }
   }
 

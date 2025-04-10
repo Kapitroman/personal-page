@@ -17,7 +17,6 @@ html {
   font-size: $fz-default;
   line-height: 22px;
   font-family: $ff-gilroy;
-  //color: $color-black;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +34,7 @@ body {
   background-color: $color-default-white;
 }
 
-body[data-color-theme="dark"]  {
+body[data-color-theme="dark"] {
   background-color: $color-black;
   color: $color-default-white;
 }
@@ -73,7 +72,7 @@ input:-webkit-autofill {
   -webkit-text-fill-color: $color-default-black;
 }
 
-[data-color-theme="dark"]  input:-webkit-autofill {
+[data-color-theme="dark"] input:-webkit-autofill {
   box-shadow: inset 0 0 0 1000px $color-default-black;
 
   -webkit-text-fill-color: $color-default-white;
@@ -99,6 +98,7 @@ select {
 
 // ie11 X removal
 input {
+
   &::-ms-clear,
   &::-ms-reveal {
     display: none;

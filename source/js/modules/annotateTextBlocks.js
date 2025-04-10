@@ -5,6 +5,10 @@ const annotateTextBlocks = () => {
   const titlesAnotation = titles.map((item) => annotate(item, { type: 'highlight', color: 'orange' }));
   annotationGroup(titlesAnotation).show();
 
+  const introText = document.querySelector('.intro__text');
+  const annotationIntroText = annotate(introText, { type: 'highlight', color: 'yellowgreen' });
+  annotationIntroText.show();
+
   const aboutListItems = Array.from(document.querySelectorAll('.about__list-item p'));
   const aboutListItemsAnotation = aboutListItems.map((item) => annotate(item, { type: 'highlight', color: 'coral' }));
   annotationGroup(aboutListItemsAnotation).show();

@@ -1,3 +1,5 @@
+import { annotate, annotationGroup } from 'rough-notation'; //
+
 const pathContent = "data/site-content.json";
 let lang = "ru";
 
@@ -18,7 +20,7 @@ const setLang = (langValue) => localStorage.setItem('lang-value', langValue);
 const setLanguageValue = (evt) => {
   lang = evt.target.value;
   setLang(lang);
-  changeLanguage (lang);
+  changeLanguage(lang);
 }
 
 const changeLanguage = async (langValue) => {
@@ -28,10 +30,10 @@ const changeLanguage = async (langValue) => {
     for (let key in languageData) {
       let elems = Array.from(document.querySelectorAll(`[data-lang-key="${key}"]`));
 
-	    if (elems.length) {
+      if (elems.length) {
         elems.forEach((elem, index) => {
           if (languageData[key][langValue] && languageData[key][langValue][index]) {
-			      elem.innerHTML = languageData[key][langValue][index];
+            elem.innerHTML = languageData[key][langValue][index];
           }
         })
       }
@@ -39,7 +41,7 @@ const changeLanguage = async (langValue) => {
 
     document.documentElement.setAttribute("lang", lang);
 
-  } catch(error) {
+  } catch (error) {
     console.log(error.message);
   }
 }
@@ -64,4 +66,4 @@ const initChangeLanguage = () => {
   toggleLanguage.addEventListener('change', setLanguageValue);
 }
 
-export {initChangeLanguage};
+export { initChangeLanguage };

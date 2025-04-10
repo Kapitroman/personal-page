@@ -5,16 +5,17 @@ mixin footer(footerMods)
       p.footer__text(data-lang-key="contactsSection")
       a(href="mailto:kapitroman@yandex.ru").footer__email Send E-mail
       p.footer__text(data-lang-key="contactsSection")
-      ul.footer__links
-        li.footer__link
+      ul.contacts-links
+        li.contacts-links__link
           span.visually-hidden github
           a(href="https://github.com/Kapitroman")
             +icon("icon-github", 40, 40)
-        li.footer__link
+        li.contacts-links__link
           span.visually-hidden telegram
           a(href="https://t.me/kapitroman")
             +icon("icon-telegram", 40, 40)
-        li.footer__link
+        li.contacts-links__link
           span.visually-hidden skype
           a(href="skype:kapiroman")
             +icon("icon-skype", 40, 40)
+
